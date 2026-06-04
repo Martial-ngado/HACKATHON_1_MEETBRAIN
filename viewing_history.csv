@@ -1,0 +1,1055 @@
+history_id,user_id,movie_id,title,genre,director,user_rating,watch_date,completed,device
+H0001,U001,M008,Interstellar,Sci-Fi,Christopher Nolan,4.5,2023-08-19,No,Laptop
+H0002,U001,M006,Dune,Sci-Fi,Denis Villeneuve,3.8,2023-01-17,Yes,Tablet
+H0003,U001,M018,Avatar,Sci-Fi,James Cameron,4.5,2023-02-06,Yes,Mobile
+H0004,U001,M003,Avengers: Endgame,Action,Christopher Nolan,1.4,2023-08-06,Yes,Mobile
+H0005,U001,M029,The Irishman,Drama,Martin Scorsese,4.7,2023-05-17,Yes,Smart TV
+H0006,U001,M001,Inception,Sci-Fi,Christopher Nolan,4.7,2023-03-26,Yes,Tablet
+H0007,U001,M014,Hereditary,Horror,Ari Aster,4.2,2023-03-05,Yes,Tablet
+H0008,U002,M017,The Social Network,Drama,David Fincher,1.9,2023-11-06,Yes,Mobile
+H0009,U002,M018,Avatar,Sci-Fi,James Cameron,3.9,2023-12-12,Yes,Laptop
+H0010,U002,M016,Toy Story 4,Animation,Josh Cooley,3.6,2023-10-23,Yes,Tablet
+H0011,U002,M015,La La Land,Romance,Damien Chazelle,3.3,2023-09-23,Yes,Mobile
+H0012,U002,M003,Avengers: Endgame,Action,Christopher Nolan,4.2,2023-10-27,No,Smart TV
+H0013,U002,M020,Soul,Animation,Pete Docter,4.0,2023-08-29,Yes,Laptop
+H0014,U002,M002,Barbie,Comedy,Greta Gerwig,1.4,2023-12-10,Yes,Laptop
+H0015,U002,M014,Hereditary,Horror,Ari Aster,3.4,2023-07-30,Yes,Tablet
+H0016,U002,M011,Marriage Story,Drama,Noah Baumbach,1.1,2023-10-09,Yes,Laptop
+H0017,U003,M011,Marriage Story,Drama,Noah Baumbach,1.2,2023-07-31,Yes,Tablet
+H0018,U003,M004,Parasite,Thriller,Bong Joon-ho,2.5,2023-11-17,Yes,Mobile
+H0019,U003,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,2.9,2023-05-17,Yes,Tablet
+H0020,U003,M013,The Notebook,Romance,Nick Cassavetes,2.7,2023-12-24,Yes,Mobile
+H0021,U003,M017,The Social Network,Drama,David Fincher,1.6,2023-12-30,Yes,Tablet
+H0022,U003,M001,Inception,Sci-Fi,Christopher Nolan,3.8,2023-02-17,Yes,Tablet
+H0023,U003,M022,Midsommar,Horror,Ari Aster,3.3,2023-03-02,Yes,Tablet
+H0024,U003,M018,Avatar,Sci-Fi,James Cameron,4.3,2023-05-30,Yes,Tablet
+H0025,U003,M015,La La Land,Romance,Damien Chazelle,4.4,2023-09-05,Yes,Tablet
+H0026,U004,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,2.0,2023-01-02,Yes,Tablet
+H0027,U004,M013,The Notebook,Romance,Nick Cassavetes,2.6,2023-03-18,No,Laptop
+H0028,U004,M007,Get Out,Horror,Jordan Peele,4.3,2023-06-20,No,Tablet
+H0029,U004,M020,Soul,Animation,Pete Docter,4.8,2023-06-14,Yes,Tablet
+H0030,U004,M017,The Social Network,Drama,David Fincher,4.0,2023-04-30,No,Smart TV
+H0031,U004,M024,Crazy Rich Asians,Romance,Jon M. Chu,3.6,2023-06-12,No,Tablet
+H0032,U004,M030,Tenet,Action,Christopher Nolan,3.8,2023-12-06,Yes,Tablet
+H0033,U004,M003,Avengers: Endgame,Action,Christopher Nolan,1.4,2023-01-19,Yes,Smart TV
+H0034,U004,M009,Nomadland,Drama,Chloe Zhao,1.3,2023-08-14,No,Smart TV
+H0035,U004,M014,Hereditary,Horror,Ari Aster,4.1,2023-03-15,Yes,Smart TV
+H0036,U004,M011,Marriage Story,Drama,Noah Baumbach,3.7,2023-08-29,Yes,Laptop
+H0037,U004,M026,BlackKklansman,Drama,Spike Lee,3.4,2023-11-16,Yes,Laptop
+H0038,U004,M022,Midsommar,Horror,Ari Aster,4.8,2023-12-12,No,Laptop
+H0039,U005,M023,The Martian,Sci-Fi,Ridley Scott,3.5,2023-11-21,Yes,Tablet
+H0040,U005,M029,The Irishman,Drama,Martin Scorsese,3.4,2023-03-27,Yes,Smart TV
+H0041,U005,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.8,2023-06-16,Yes,Laptop
+H0042,U005,M016,Toy Story 4,Animation,Josh Cooley,2.5,2023-07-11,Yes,Tablet
+H0043,U005,M018,Avatar,Sci-Fi,James Cameron,3.4,2023-10-17,Yes,Mobile
+H0044,U005,M002,Barbie,Comedy,Greta Gerwig,3.6,2023-03-31,No,Mobile
+H0045,U005,M020,Soul,Animation,Pete Docter,4.2,2023-09-12,Yes,Mobile
+H0046,U005,M003,Avengers: Endgame,Action,Christopher Nolan,3.2,2023-08-25,No,Laptop
+H0047,U005,M008,Interstellar,Sci-Fi,Christopher Nolan,1.0,2023-12-08,No,Laptop
+H0048,U005,M021,Joker,Drama,Todd Phillips,2.9,2023-12-13,Yes,Tablet
+H0049,U005,M010,The Dark Knight,Action,Christopher Nolan,4.5,2023-06-26,Yes,Tablet
+H0050,U005,M022,Midsommar,Horror,Ari Aster,3.9,2023-12-20,Yes,Mobile
+H0051,U005,M030,Tenet,Action,Christopher Nolan,4.0,2023-07-16,Yes,Mobile
+H0052,U005,M014,Hereditary,Horror,Ari Aster,4.4,2023-07-15,Yes,Laptop
+H0053,U005,M004,Parasite,Thriller,Bong Joon-ho,4.4,2023-01-12,No,Laptop
+H0054,U006,M019,Knives Out,Thriller,Rian Johnson,4.9,2023-01-26,No,Laptop
+H0055,U006,M028,A Quiet Place,Horror,John Krasinski,3.1,2023-04-28,Yes,Mobile
+H0056,U006,M022,Midsommar,Horror,Ari Aster,1.7,2023-11-22,Yes,Mobile
+H0057,U006,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,1.3,2023-11-18,Yes,Laptop
+H0058,U006,M024,Crazy Rich Asians,Romance,Jon M. Chu,1.1,2023-08-14,Yes,Mobile
+H0059,U007,M030,Tenet,Action,Christopher Nolan,3.7,2023-04-13,Yes,Laptop
+H0060,U007,M010,The Dark Knight,Action,Christopher Nolan,3.9,2023-03-26,No,Laptop
+H0061,U007,M011,Marriage Story,Drama,Noah Baumbach,4.7,2023-06-23,No,Smart TV
+H0062,U007,M024,Crazy Rich Asians,Romance,Jon M. Chu,3.6,2023-03-14,Yes,Tablet
+H0063,U007,M014,Hereditary,Horror,Ari Aster,2.3,2023-10-13,No,Smart TV
+H0064,U007,M006,Dune,Sci-Fi,Denis Villeneuve,2.9,2023-05-16,No,Laptop
+H0065,U008,M024,Crazy Rich Asians,Romance,Jon M. Chu,3.6,2023-11-28,No,Laptop
+H0066,U008,M022,Midsommar,Horror,Ari Aster,2.4,2023-11-29,Yes,Smart TV
+H0067,U008,M009,Nomadland,Drama,Chloe Zhao,2.1,2023-01-20,No,Smart TV
+H0068,U008,M019,Knives Out,Thriller,Rian Johnson,1.8,2023-02-19,Yes,Tablet
+H0069,U008,M013,The Notebook,Romance,Nick Cassavetes,4.1,2023-08-21,No,Mobile
+H0070,U008,M021,Joker,Drama,Todd Phillips,3.3,2023-08-01,No,Tablet
+H0071,U008,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.5,2023-05-24,Yes,Mobile
+H0072,U008,M004,Parasite,Thriller,Bong Joon-ho,2.6,2023-08-16,Yes,Laptop
+H0073,U008,M029,The Irishman,Drama,Martin Scorsese,4.4,2023-02-20,Yes,Laptop
+H0074,U008,M008,Interstellar,Sci-Fi,Christopher Nolan,4.1,2023-02-01,Yes,Smart TV
+H0075,U008,M016,Toy Story 4,Animation,Josh Cooley,1.3,2023-08-21,Yes,Smart TV
+H0076,U008,M001,Inception,Sci-Fi,Christopher Nolan,4.7,2023-01-26,Yes,Mobile
+H0077,U008,M018,Avatar,Sci-Fi,James Cameron,3.8,2023-10-17,Yes,Mobile
+H0078,U008,M011,Marriage Story,Drama,Noah Baumbach,2.1,2023-04-30,Yes,Smart TV
+H0079,U008,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,4.0,2023-05-22,Yes,Mobile
+H0080,U009,M009,Nomadland,Drama,Chloe Zhao,3.9,2023-03-31,Yes,Tablet
+H0081,U009,M026,BlackKklansman,Drama,Spike Lee,3.7,2023-09-27,Yes,Tablet
+H0082,U009,M006,Dune,Sci-Fi,Denis Villeneuve,4.7,2023-08-18,Yes,Tablet
+H0083,U009,M004,Parasite,Thriller,Bong Joon-ho,1.8,2023-09-15,Yes,Laptop
+H0084,U009,M022,Midsommar,Horror,Ari Aster,3.3,2023-08-23,Yes,Smart TV
+H0085,U009,M001,Inception,Sci-Fi,Christopher Nolan,4.8,2023-09-03,No,Smart TV
+H0086,U009,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.5,2023-09-09,No,Smart TV
+H0087,U009,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,2.1,2023-02-11,Yes,Smart TV
+H0088,U009,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.9,2023-03-06,Yes,Tablet
+H0089,U009,M008,Interstellar,Sci-Fi,Christopher Nolan,4.3,2023-11-02,No,Tablet
+H0090,U009,M019,Knives Out,Thriller,Rian Johnson,3.8,2023-02-20,Yes,Mobile
+H0091,U009,M011,Marriage Story,Drama,Noah Baumbach,4.2,2023-08-09,Yes,Tablet
+H0092,U009,M023,The Martian,Sci-Fi,Ridley Scott,4.7,2023-06-23,No,Tablet
+H0093,U010,M011,Marriage Story,Drama,Noah Baumbach,3.4,2023-03-20,No,Smart TV
+H0094,U010,M014,Hereditary,Horror,Ari Aster,3.9,2023-02-16,Yes,Tablet
+H0095,U010,M030,Tenet,Action,Christopher Nolan,3.6,2023-02-19,Yes,Mobile
+H0096,U010,M022,Midsommar,Horror,Ari Aster,1.2,2023-10-12,Yes,Smart TV
+H0097,U010,M009,Nomadland,Drama,Chloe Zhao,2.2,2023-07-30,No,Smart TV
+H0098,U010,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.1,2023-05-28,Yes,Smart TV
+H0099,U011,M017,The Social Network,Drama,David Fincher,5.0,2023-10-15,Yes,Laptop
+H0100,U011,M007,Get Out,Horror,Jordan Peele,1.6,2023-01-15,Yes,Laptop
+H0101,U011,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.5,2023-06-29,Yes,Tablet
+H0102,U011,M022,Midsommar,Horror,Ari Aster,1.5,2023-02-05,Yes,Smart TV
+H0103,U011,M016,Toy Story 4,Animation,Josh Cooley,1.8,2023-09-29,No,Tablet
+H0104,U011,M008,Interstellar,Sci-Fi,Christopher Nolan,3.7,2023-06-24,Yes,Laptop
+H0105,U011,M004,Parasite,Thriller,Bong Joon-ho,3.1,2023-10-18,Yes,Mobile
+H0106,U011,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.6,2023-03-22,Yes,Smart TV
+H0107,U011,M018,Avatar,Sci-Fi,James Cameron,4.2,2023-05-20,No,Tablet
+H0108,U011,M023,The Martian,Sci-Fi,Ridley Scott,4.2,2023-11-07,Yes,Mobile
+H0109,U011,M024,Crazy Rich Asians,Romance,Jon M. Chu,1.4,2023-09-20,No,Smart TV
+H0110,U011,M009,Nomadland,Drama,Chloe Zhao,4.5,2023-05-26,No,Laptop
+H0111,U011,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,1.8,2023-01-24,Yes,Smart TV
+H0112,U011,M014,Hereditary,Horror,Ari Aster,2.1,2023-04-15,Yes,Mobile
+H0113,U012,M010,The Dark Knight,Action,Christopher Nolan,2.9,2023-07-14,Yes,Laptop
+H0114,U012,M011,Marriage Story,Drama,Noah Baumbach,2.4,2023-02-06,Yes,Tablet
+H0115,U012,M004,Parasite,Thriller,Bong Joon-ho,4.2,2023-01-10,Yes,Laptop
+H0116,U012,M001,Inception,Sci-Fi,Christopher Nolan,4.1,2023-10-22,No,Tablet
+H0117,U012,M016,Toy Story 4,Animation,Josh Cooley,1.4,2023-05-29,Yes,Laptop
+H0118,U012,M024,Crazy Rich Asians,Romance,Jon M. Chu,4.7,2023-03-29,No,Laptop
+H0119,U012,M014,Hereditary,Horror,Ari Aster,2.5,2023-02-15,Yes,Mobile
+H0120,U012,M006,Dune,Sci-Fi,Denis Villeneuve,4.4,2023-08-12,Yes,Tablet
+H0121,U012,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.6,2023-06-08,Yes,Laptop
+H0122,U013,M003,Avengers: Endgame,Action,Christopher Nolan,2.2,2023-06-28,Yes,Mobile
+H0123,U013,M017,The Social Network,Drama,David Fincher,3.7,2023-02-22,Yes,Mobile
+H0124,U013,M021,Joker,Drama,Todd Phillips,3.7,2023-11-05,Yes,Mobile
+H0125,U013,M004,Parasite,Thriller,Bong Joon-ho,2.7,2023-11-18,No,Laptop
+H0126,U013,M029,The Irishman,Drama,Martin Scorsese,4.0,2023-11-18,No,Smart TV
+H0127,U013,M026,BlackKklansman,Drama,Spike Lee,4.2,2023-08-29,Yes,Laptop
+H0128,U013,M007,Get Out,Horror,Jordan Peele,3.6,2023-10-30,Yes,Laptop
+H0129,U014,M015,La La Land,Romance,Damien Chazelle,3.0,2023-08-25,Yes,Tablet
+H0130,U014,M002,Barbie,Comedy,Greta Gerwig,3.3,2023-10-20,Yes,Tablet
+H0131,U014,M029,The Irishman,Drama,Martin Scorsese,3.7,2023-09-14,Yes,Tablet
+H0132,U014,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.8,2023-02-22,Yes,Smart TV
+H0133,U014,M010,The Dark Knight,Action,Christopher Nolan,3.3,2023-09-16,Yes,Mobile
+H0134,U014,M003,Avengers: Endgame,Action,Christopher Nolan,2.5,2023-12-29,No,Mobile
+H0135,U014,M021,Joker,Drama,Todd Phillips,4.1,2023-07-06,Yes,Tablet
+H0136,U014,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,4.7,2023-07-29,Yes,Laptop
+H0137,U014,M020,Soul,Animation,Pete Docter,4.0,2023-02-03,No,Laptop
+H0138,U014,M022,Midsommar,Horror,Ari Aster,3.5,2023-05-10,Yes,Laptop
+H0139,U014,M017,The Social Network,Drama,David Fincher,4.4,2023-02-11,Yes,Laptop
+H0140,U014,M013,The Notebook,Romance,Nick Cassavetes,4.4,2023-06-08,No,Mobile
+H0141,U015,M023,The Martian,Sci-Fi,Ridley Scott,2.3,2023-01-10,Yes,Mobile
+H0142,U015,M003,Avengers: Endgame,Action,Christopher Nolan,4.3,2023-06-24,No,Mobile
+H0143,U015,M010,The Dark Knight,Action,Christopher Nolan,4.5,2023-04-26,Yes,Smart TV
+H0144,U015,M018,Avatar,Sci-Fi,James Cameron,4.0,2023-06-01,Yes,Smart TV
+H0145,U015,M013,The Notebook,Romance,Nick Cassavetes,2.2,2023-12-05,Yes,Tablet
+H0146,U015,M021,Joker,Drama,Todd Phillips,1.6,2023-03-20,Yes,Tablet
+H0147,U015,M011,Marriage Story,Drama,Noah Baumbach,2.4,2023-01-23,Yes,Tablet
+H0148,U015,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,2.0,2023-11-09,No,Mobile
+H0149,U015,M022,Midsommar,Horror,Ari Aster,3.9,2023-10-01,No,Mobile
+H0150,U015,M017,The Social Network,Drama,David Fincher,3.4,2023-07-08,No,Tablet
+H0151,U015,M029,The Irishman,Drama,Martin Scorsese,3.7,2023-05-25,No,Mobile
+H0152,U015,M014,Hereditary,Horror,Ari Aster,4.7,2023-04-13,Yes,Laptop
+H0153,U015,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.2,2023-01-27,Yes,Smart TV
+H0154,U015,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.0,2023-12-31,Yes,Laptop
+H0155,U016,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.6,2023-08-12,Yes,Tablet
+H0156,U016,M006,Dune,Sci-Fi,Denis Villeneuve,4.3,2023-06-28,No,Smart TV
+H0157,U016,M009,Nomadland,Drama,Chloe Zhao,4.3,2023-07-22,Yes,Tablet
+H0158,U016,M015,La La Land,Romance,Damien Chazelle,2.3,2023-02-11,Yes,Laptop
+H0159,U016,M017,The Social Network,Drama,David Fincher,4.8,2023-02-20,Yes,Mobile
+H0160,U016,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,1.1,2023-03-12,No,Mobile
+H0161,U017,M015,La La Land,Romance,Damien Chazelle,3.7,2023-02-26,Yes,Laptop
+H0162,U017,M020,Soul,Animation,Pete Docter,1.2,2023-03-04,No,Tablet
+H0163,U017,M001,Inception,Sci-Fi,Christopher Nolan,1.4,2023-02-02,No,Smart TV
+H0164,U017,M003,Avengers: Endgame,Action,Christopher Nolan,2.8,2023-11-20,Yes,Mobile
+H0165,U017,M028,A Quiet Place,Horror,John Krasinski,2.5,2023-05-30,Yes,Mobile
+H0166,U017,M009,Nomadland,Drama,Chloe Zhao,4.1,2023-10-20,Yes,Laptop
+H0167,U017,M007,Get Out,Horror,Jordan Peele,4.3,2023-02-04,Yes,Tablet
+H0168,U017,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,1.2,2023-08-29,No,Laptop
+H0169,U017,M018,Avatar,Sci-Fi,James Cameron,3.6,2023-05-10,Yes,Smart TV
+H0170,U017,M029,The Irishman,Drama,Martin Scorsese,3.9,2023-06-26,Yes,Laptop
+H0171,U017,M017,The Social Network,Drama,David Fincher,3.6,2023-03-10,Yes,Mobile
+H0172,U017,M014,Hereditary,Horror,Ari Aster,2.6,2023-12-17,No,Mobile
+H0173,U018,M003,Avengers: Endgame,Action,Christopher Nolan,4.7,2023-01-23,Yes,Laptop
+H0174,U018,M023,The Martian,Sci-Fi,Ridley Scott,2.8,2023-06-08,No,Laptop
+H0175,U018,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.6,2023-01-19,Yes,Laptop
+H0176,U018,M015,La La Land,Romance,Damien Chazelle,4.0,2023-07-02,Yes,Laptop
+H0177,U018,M002,Barbie,Comedy,Greta Gerwig,1.4,2023-05-20,Yes,Tablet
+H0178,U018,M010,The Dark Knight,Action,Christopher Nolan,4.6,2023-07-24,No,Laptop
+H0179,U018,M007,Get Out,Horror,Jordan Peele,2.7,2023-04-06,No,Laptop
+H0180,U019,M009,Nomadland,Drama,Chloe Zhao,4.0,2023-02-10,Yes,Laptop
+H0181,U019,M026,BlackKklansman,Drama,Spike Lee,4.4,2023-08-17,No,Mobile
+H0182,U019,M003,Avengers: Endgame,Action,Christopher Nolan,2.6,2023-12-20,No,Smart TV
+H0183,U019,M024,Crazy Rich Asians,Romance,Jon M. Chu,4.4,2023-06-30,No,Laptop
+H0184,U019,M014,Hereditary,Horror,Ari Aster,5.0,2023-11-24,Yes,Smart TV
+H0185,U019,M028,A Quiet Place,Horror,John Krasinski,4.5,2023-12-10,Yes,Mobile
+H0186,U019,M029,The Irishman,Drama,Martin Scorsese,3.7,2023-01-16,No,Smart TV
+H0187,U019,M020,Soul,Animation,Pete Docter,1.2,2023-03-06,Yes,Laptop
+H0188,U019,M006,Dune,Sci-Fi,Denis Villeneuve,4.3,2023-07-16,Yes,Mobile
+H0189,U019,M018,Avatar,Sci-Fi,James Cameron,2.6,2023-12-14,Yes,Laptop
+H0190,U019,M010,The Dark Knight,Action,Christopher Nolan,3.7,2023-08-16,Yes,Laptop
+H0191,U019,M011,Marriage Story,Drama,Noah Baumbach,4.0,2023-07-23,Yes,Mobile
+H0192,U019,M004,Parasite,Thriller,Bong Joon-ho,1.1,2023-02-28,Yes,Tablet
+H0193,U020,M013,The Notebook,Romance,Nick Cassavetes,1.5,2023-03-04,Yes,Tablet
+H0194,U020,M018,Avatar,Sci-Fi,James Cameron,4.1,2023-03-30,No,Smart TV
+H0195,U020,M004,Parasite,Thriller,Bong Joon-ho,4.4,2023-12-16,Yes,Laptop
+H0196,U020,M009,Nomadland,Drama,Chloe Zhao,1.2,2023-12-30,Yes,Laptop
+H0197,U020,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.5,2023-03-22,Yes,Laptop
+H0198,U020,M027,Free Guy,Action,Shawn Levy,1.8,2023-09-18,Yes,Mobile
+H0199,U020,M023,The Martian,Sci-Fi,Ridley Scott,3.8,2023-05-02,Yes,Laptop
+H0200,U020,M015,La La Land,Romance,Damien Chazelle,3.0,2023-10-11,No,Mobile
+H0201,U020,M007,Get Out,Horror,Jordan Peele,4.8,2023-11-10,Yes,Laptop
+H0202,U020,M020,Soul,Animation,Pete Docter,4.5,2023-07-23,No,Tablet
+H0203,U020,M010,The Dark Knight,Action,Christopher Nolan,3.9,2023-07-29,Yes,Mobile
+H0204,U020,M016,Toy Story 4,Animation,Josh Cooley,3.2,2023-06-12,No,Tablet
+H0205,U020,M022,Midsommar,Horror,Ari Aster,4.3,2023-12-15,Yes,Mobile
+H0206,U021,M014,Hereditary,Horror,Ari Aster,1.6,2023-06-05,Yes,Mobile
+H0207,U021,M017,The Social Network,Drama,David Fincher,4.3,2023-06-27,Yes,Smart TV
+H0208,U021,M028,A Quiet Place,Horror,John Krasinski,1.7,2023-05-09,Yes,Mobile
+H0209,U021,M002,Barbie,Comedy,Greta Gerwig,4.0,2023-11-17,Yes,Mobile
+H0210,U021,M004,Parasite,Thriller,Bong Joon-ho,4.3,2023-10-31,Yes,Mobile
+H0211,U021,M029,The Irishman,Drama,Martin Scorsese,3.2,2023-12-04,Yes,Smart TV
+H0212,U021,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.6,2023-01-15,Yes,Mobile
+H0213,U022,M014,Hereditary,Horror,Ari Aster,1.3,2023-08-21,Yes,Mobile
+H0214,U022,M020,Soul,Animation,Pete Docter,4.1,2023-08-14,No,Mobile
+H0215,U022,M021,Joker,Drama,Todd Phillips,3.1,2023-06-24,Yes,Laptop
+H0216,U022,M001,Inception,Sci-Fi,Christopher Nolan,4.4,2023-06-26,Yes,Laptop
+H0217,U022,M016,Toy Story 4,Animation,Josh Cooley,4.3,2023-09-21,Yes,Mobile
+H0218,U022,M028,A Quiet Place,Horror,John Krasinski,1.4,2023-08-27,No,Mobile
+H0219,U022,M018,Avatar,Sci-Fi,James Cameron,1.3,2023-03-14,Yes,Tablet
+H0220,U022,M010,The Dark Knight,Action,Christopher Nolan,4.1,2023-11-12,Yes,Laptop
+H0221,U022,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,4.6,2023-10-23,Yes,Mobile
+H0222,U022,M023,The Martian,Sci-Fi,Ridley Scott,4.5,2023-09-13,No,Tablet
+H0223,U022,M026,BlackKklansman,Drama,Spike Lee,2.7,2023-06-07,Yes,Tablet
+H0224,U022,M008,Interstellar,Sci-Fi,Christopher Nolan,2.6,2023-09-16,Yes,Mobile
+H0225,U022,M013,The Notebook,Romance,Nick Cassavetes,4.0,2023-10-26,Yes,Laptop
+H0226,U022,M022,Midsommar,Horror,Ari Aster,3.1,2023-09-11,No,Laptop
+H0227,U023,M001,Inception,Sci-Fi,Christopher Nolan,4.3,2023-10-19,Yes,Laptop
+H0228,U023,M028,A Quiet Place,Horror,John Krasinski,2.4,2023-02-07,No,Laptop
+H0229,U023,M004,Parasite,Thriller,Bong Joon-ho,3.4,2023-11-16,Yes,Mobile
+H0230,U023,M014,Hereditary,Horror,Ari Aster,2.4,2023-02-19,Yes,Laptop
+H0231,U023,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,1.7,2023-03-15,No,Smart TV
+H0232,U023,M009,Nomadland,Drama,Chloe Zhao,3.6,2023-01-24,Yes,Tablet
+H0233,U023,M024,Crazy Rich Asians,Romance,Jon M. Chu,2.6,2023-09-23,Yes,Laptop
+H0234,U023,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.0,2023-11-10,No,Laptop
+H0235,U023,M013,The Notebook,Romance,Nick Cassavetes,2.2,2023-10-31,No,Laptop
+H0236,U023,M023,The Martian,Sci-Fi,Ridley Scott,4.7,2023-09-01,Yes,Laptop
+H0237,U023,M002,Barbie,Comedy,Greta Gerwig,1.4,2023-12-11,No,Laptop
+H0238,U023,M022,Midsommar,Horror,Ari Aster,3.2,2023-12-19,No,Laptop
+H0239,U023,M020,Soul,Animation,Pete Docter,3.7,2023-12-02,Yes,Smart TV
+H0240,U024,M016,Toy Story 4,Animation,Josh Cooley,4.2,2023-01-10,No,Mobile
+H0241,U024,M006,Dune,Sci-Fi,Denis Villeneuve,3.4,2023-07-31,No,Tablet
+H0242,U024,M017,The Social Network,Drama,David Fincher,3.5,2023-02-01,Yes,Laptop
+H0243,U024,M021,Joker,Drama,Todd Phillips,2.7,2023-12-06,No,Laptop
+H0244,U024,M024,Crazy Rich Asians,Romance,Jon M. Chu,2.6,2023-03-30,Yes,Laptop
+H0245,U024,M020,Soul,Animation,Pete Docter,4.7,2023-12-13,Yes,Tablet
+H0246,U024,M013,The Notebook,Romance,Nick Cassavetes,4.4,2023-04-09,Yes,Laptop
+H0247,U024,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,4.9,2023-04-26,Yes,Laptop
+H0248,U024,M022,Midsommar,Horror,Ari Aster,3.8,2023-12-27,No,Laptop
+H0249,U024,M008,Interstellar,Sci-Fi,Christopher Nolan,2.2,2023-09-03,Yes,Laptop
+H0250,U024,M002,Barbie,Comedy,Greta Gerwig,4.4,2023-03-04,No,Tablet
+H0251,U024,M019,Knives Out,Thriller,Rian Johnson,4.3,2023-06-26,Yes,Laptop
+H0252,U024,M004,Parasite,Thriller,Bong Joon-ho,2.0,2023-01-22,Yes,Laptop
+H0253,U024,M007,Get Out,Horror,Jordan Peele,4.5,2023-08-15,No,Mobile
+H0254,U025,M027,Free Guy,Action,Shawn Levy,3.6,2023-11-12,Yes,Mobile
+H0255,U025,M018,Avatar,Sci-Fi,James Cameron,4.5,2023-01-26,Yes,Mobile
+H0256,U025,M009,Nomadland,Drama,Chloe Zhao,1.4,2023-01-27,Yes,Tablet
+H0257,U025,M029,The Irishman,Drama,Martin Scorsese,3.4,2023-02-21,Yes,Smart TV
+H0258,U025,M023,The Martian,Sci-Fi,Ridley Scott,5.0,2023-10-09,Yes,Tablet
+H0259,U025,M028,A Quiet Place,Horror,John Krasinski,4.3,2023-12-01,No,Tablet
+H0260,U025,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,1.7,2023-11-30,Yes,Laptop
+H0261,U025,M004,Parasite,Thriller,Bong Joon-ho,3.3,2023-05-27,Yes,Mobile
+H0262,U026,M024,Crazy Rich Asians,Romance,Jon M. Chu,3.9,2023-01-05,Yes,Laptop
+H0263,U026,M030,Tenet,Action,Christopher Nolan,4.2,2023-05-26,No,Mobile
+H0264,U026,M028,A Quiet Place,Horror,John Krasinski,2.6,2023-09-16,Yes,Smart TV
+H0265,U026,M002,Barbie,Comedy,Greta Gerwig,1.6,2023-06-19,No,Laptop
+H0266,U026,M006,Dune,Sci-Fi,Denis Villeneuve,1.0,2023-04-06,Yes,Laptop
+H0267,U026,M014,Hereditary,Horror,Ari Aster,3.4,2023-10-18,Yes,Mobile
+H0268,U026,M026,BlackKklansman,Drama,Spike Lee,4.0,2023-11-09,No,Tablet
+H0269,U026,M027,Free Guy,Action,Shawn Levy,4.0,2023-09-21,No,Smart TV
+H0270,U026,M013,The Notebook,Romance,Nick Cassavetes,5.0,2023-04-05,No,Laptop
+H0271,U026,M016,Toy Story 4,Animation,Josh Cooley,3.5,2023-05-08,No,Mobile
+H0272,U026,M029,The Irishman,Drama,Martin Scorsese,3.6,2023-08-17,Yes,Laptop
+H0273,U026,M010,The Dark Knight,Action,Christopher Nolan,4.6,2023-10-26,Yes,Laptop
+H0274,U026,M023,The Martian,Sci-Fi,Ridley Scott,2.3,2023-12-01,Yes,Smart TV
+H0275,U027,M004,Parasite,Thriller,Bong Joon-ho,1.5,2023-09-02,Yes,Tablet
+H0276,U027,M015,La La Land,Romance,Damien Chazelle,2.9,2023-12-26,No,Mobile
+H0277,U027,M010,The Dark Knight,Action,Christopher Nolan,3.4,2023-05-07,Yes,Tablet
+H0278,U027,M006,Dune,Sci-Fi,Denis Villeneuve,3.5,2023-09-28,Yes,Smart TV
+H0279,U027,M013,The Notebook,Romance,Nick Cassavetes,3.9,2023-02-01,Yes,Mobile
+H0280,U027,M022,Midsommar,Horror,Ari Aster,2.1,2023-03-26,No,Smart TV
+H0281,U027,M017,The Social Network,Drama,David Fincher,1.7,2023-12-15,No,Smart TV
+H0282,U027,M023,The Martian,Sci-Fi,Ridley Scott,2.6,2023-09-19,Yes,Tablet
+H0283,U027,M028,A Quiet Place,Horror,John Krasinski,2.8,2023-03-09,No,Smart TV
+H0284,U027,M030,Tenet,Action,Christopher Nolan,2.6,2023-10-14,Yes,Smart TV
+H0285,U027,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,1.9,2023-07-22,Yes,Mobile
+H0286,U027,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,1.3,2023-10-24,No,Laptop
+H0287,U027,M008,Interstellar,Sci-Fi,Christopher Nolan,1.2,2023-12-25,Yes,Smart TV
+H0288,U027,M018,Avatar,Sci-Fi,James Cameron,1.1,2023-08-30,No,Mobile
+H0289,U027,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.7,2023-03-11,No,Laptop
+H0290,U028,M015,La La Land,Romance,Damien Chazelle,1.6,2023-03-02,No,Mobile
+H0291,U028,M028,A Quiet Place,Horror,John Krasinski,3.9,2023-04-25,Yes,Laptop
+H0292,U028,M013,The Notebook,Romance,Nick Cassavetes,3.4,2023-08-26,No,Tablet
+H0293,U028,M029,The Irishman,Drama,Martin Scorsese,1.9,2023-04-28,Yes,Mobile
+H0294,U028,M003,Avengers: Endgame,Action,Christopher Nolan,3.8,2023-05-22,Yes,Smart TV
+H0295,U028,M022,Midsommar,Horror,Ari Aster,2.5,2023-12-05,Yes,Mobile
+H0296,U028,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,1.2,2023-04-16,Yes,Tablet
+H0297,U028,M018,Avatar,Sci-Fi,James Cameron,4.5,2023-11-03,Yes,Mobile
+H0298,U028,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,2.4,2023-01-23,Yes,Mobile
+H0299,U028,M021,Joker,Drama,Todd Phillips,1.5,2023-01-29,Yes,Mobile
+H0300,U028,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.0,2023-10-22,Yes,Mobile
+H0301,U029,M029,The Irishman,Drama,Martin Scorsese,4.3,2023-10-13,Yes,Tablet
+H0302,U029,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,2.7,2023-10-12,Yes,Tablet
+H0303,U029,M022,Midsommar,Horror,Ari Aster,2.1,2023-09-26,No,Tablet
+H0304,U029,M017,The Social Network,Drama,David Fincher,2.0,2023-03-18,Yes,Tablet
+H0305,U029,M008,Interstellar,Sci-Fi,Christopher Nolan,4.8,2023-05-04,Yes,Mobile
+H0306,U029,M014,Hereditary,Horror,Ari Aster,4.2,2023-08-26,No,Tablet
+H0307,U029,M010,The Dark Knight,Action,Christopher Nolan,2.9,2023-10-13,No,Mobile
+H0308,U029,M009,Nomadland,Drama,Chloe Zhao,1.7,2023-05-11,Yes,Tablet
+H0309,U029,M002,Barbie,Comedy,Greta Gerwig,1.3,2023-07-09,Yes,Smart TV
+H0310,U030,M013,The Notebook,Romance,Nick Cassavetes,1.8,2023-10-14,Yes,Laptop
+H0311,U030,M022,Midsommar,Horror,Ari Aster,4.3,2023-06-05,Yes,Mobile
+H0312,U030,M020,Soul,Animation,Pete Docter,4.9,2023-04-08,Yes,Tablet
+H0313,U030,M028,A Quiet Place,Horror,John Krasinski,3.4,2023-05-05,Yes,Tablet
+H0314,U030,M002,Barbie,Comedy,Greta Gerwig,4.3,2023-05-03,Yes,Tablet
+H0315,U030,M003,Avengers: Endgame,Action,Christopher Nolan,2.9,2023-08-27,Yes,Laptop
+H0316,U030,M007,Get Out,Horror,Jordan Peele,2.3,2023-05-14,No,Tablet
+H0317,U030,M019,Knives Out,Thriller,Rian Johnson,4.7,2023-02-20,No,Laptop
+H0318,U030,M029,The Irishman,Drama,Martin Scorsese,2.3,2023-04-15,No,Smart TV
+H0319,U031,M028,A Quiet Place,Horror,John Krasinski,2.3,2023-04-28,Yes,Tablet
+H0320,U031,M008,Interstellar,Sci-Fi,Christopher Nolan,3.3,2023-10-09,Yes,Laptop
+H0321,U031,M024,Crazy Rich Asians,Romance,Jon M. Chu,4.4,2023-09-08,No,Tablet
+H0322,U031,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.6,2023-03-28,Yes,Mobile
+H0323,U031,M001,Inception,Sci-Fi,Christopher Nolan,3.5,2023-03-13,No,Mobile
+H0324,U031,M009,Nomadland,Drama,Chloe Zhao,5.0,2023-10-05,Yes,Smart TV
+H0325,U031,M018,Avatar,Sci-Fi,James Cameron,4.3,2023-02-08,Yes,Smart TV
+H0326,U031,M019,Knives Out,Thriller,Rian Johnson,3.7,2023-07-31,Yes,Smart TV
+H0327,U031,M023,The Martian,Sci-Fi,Ridley Scott,1.5,2023-12-29,Yes,Tablet
+H0328,U031,M014,Hereditary,Horror,Ari Aster,1.2,2023-07-11,No,Tablet
+H0329,U031,M010,The Dark Knight,Action,Christopher Nolan,1.0,2023-01-09,No,Smart TV
+H0330,U031,M027,Free Guy,Action,Shawn Levy,2.9,2023-01-09,Yes,Laptop
+H0331,U031,M007,Get Out,Horror,Jordan Peele,2.8,2023-01-09,No,Mobile
+H0332,U031,M011,Marriage Story,Drama,Noah Baumbach,4.9,2023-02-24,Yes,Mobile
+H0333,U032,M020,Soul,Animation,Pete Docter,4.4,2023-07-11,No,Mobile
+H0334,U032,M017,The Social Network,Drama,David Fincher,3.8,2023-12-23,Yes,Smart TV
+H0335,U032,M009,Nomadland,Drama,Chloe Zhao,4.1,2023-02-17,No,Tablet
+H0336,U032,M027,Free Guy,Action,Shawn Levy,4.5,2023-01-29,Yes,Smart TV
+H0337,U032,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.8,2023-09-13,Yes,Smart TV
+H0338,U032,M028,A Quiet Place,Horror,John Krasinski,4.2,2023-09-28,Yes,Mobile
+H0339,U032,M013,The Notebook,Romance,Nick Cassavetes,4.1,2023-12-21,No,Laptop
+H0340,U032,M003,Avengers: Endgame,Action,Christopher Nolan,4.9,2023-01-24,Yes,Smart TV
+H0341,U033,M030,Tenet,Action,Christopher Nolan,3.9,2023-12-31,Yes,Laptop
+H0342,U033,M028,A Quiet Place,Horror,John Krasinski,3.0,2023-03-25,No,Laptop
+H0343,U033,M011,Marriage Story,Drama,Noah Baumbach,3.6,2023-07-16,Yes,Smart TV
+H0344,U033,M001,Inception,Sci-Fi,Christopher Nolan,4.6,2023-09-14,Yes,Smart TV
+H0345,U033,M007,Get Out,Horror,Jordan Peele,2.5,2023-02-20,Yes,Laptop
+H0346,U033,M019,Knives Out,Thriller,Rian Johnson,3.7,2023-11-06,No,Laptop
+H0347,U033,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.2,2023-01-16,No,Tablet
+H0348,U034,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.6,2023-07-14,Yes,Mobile
+H0349,U034,M018,Avatar,Sci-Fi,James Cameron,3.6,2024-01-01,Yes,Mobile
+H0350,U034,M013,The Notebook,Romance,Nick Cassavetes,3.5,2023-07-14,Yes,Tablet
+H0351,U034,M014,Hereditary,Horror,Ari Aster,2.3,2023-06-12,Yes,Smart TV
+H0352,U034,M006,Dune,Sci-Fi,Denis Villeneuve,4.2,2023-06-07,Yes,Smart TV
+H0353,U034,M022,Midsommar,Horror,Ari Aster,1.3,2023-03-09,No,Tablet
+H0354,U034,M019,Knives Out,Thriller,Rian Johnson,2.9,2023-10-13,No,Smart TV
+H0355,U034,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.6,2023-01-14,Yes,Laptop
+H0356,U035,M001,Inception,Sci-Fi,Christopher Nolan,3.4,2023-03-28,Yes,Mobile
+H0357,U035,M010,The Dark Knight,Action,Christopher Nolan,4.0,2023-05-18,No,Mobile
+H0358,U035,M014,Hereditary,Horror,Ari Aster,1.6,2023-02-02,Yes,Tablet
+H0359,U035,M013,The Notebook,Romance,Nick Cassavetes,2.7,2023-06-03,Yes,Laptop
+H0360,U035,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,4.3,2023-05-09,No,Mobile
+H0361,U035,M003,Avengers: Endgame,Action,Christopher Nolan,3.7,2023-08-23,Yes,Smart TV
+H0362,U035,M024,Crazy Rich Asians,Romance,Jon M. Chu,2.2,2023-07-22,No,Laptop
+H0363,U035,M018,Avatar,Sci-Fi,James Cameron,2.2,2023-08-14,Yes,Laptop
+H0364,U035,M008,Interstellar,Sci-Fi,Christopher Nolan,3.1,2023-06-14,Yes,Tablet
+H0365,U035,M019,Knives Out,Thriller,Rian Johnson,1.6,2023-06-10,No,Laptop
+H0366,U035,M017,The Social Network,Drama,David Fincher,3.6,2023-05-30,No,Mobile
+H0367,U036,M013,The Notebook,Romance,Nick Cassavetes,1.6,2023-10-07,Yes,Tablet
+H0368,U036,M009,Nomadland,Drama,Chloe Zhao,1.7,2023-12-29,Yes,Smart TV
+H0369,U036,M027,Free Guy,Action,Shawn Levy,3.4,2023-07-29,Yes,Laptop
+H0370,U036,M026,BlackKklansman,Drama,Spike Lee,1.9,2023-05-04,Yes,Tablet
+H0371,U036,M030,Tenet,Action,Christopher Nolan,1.3,2023-07-13,No,Tablet
+H0372,U036,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.3,2023-10-01,No,Smart TV
+H0373,U036,M004,Parasite,Thriller,Bong Joon-ho,3.5,2023-07-04,Yes,Smart TV
+H0374,U036,M019,Knives Out,Thriller,Rian Johnson,3.3,2023-05-08,Yes,Mobile
+H0375,U036,M007,Get Out,Horror,Jordan Peele,3.1,2023-11-28,No,Laptop
+H0376,U036,M023,The Martian,Sci-Fi,Ridley Scott,3.7,2023-08-09,Yes,Laptop
+H0377,U037,M017,The Social Network,Drama,David Fincher,2.3,2023-08-17,No,Mobile
+H0378,U037,M024,Crazy Rich Asians,Romance,Jon M. Chu,4.5,2023-06-26,No,Smart TV
+H0379,U037,M030,Tenet,Action,Christopher Nolan,4.1,2023-06-01,Yes,Smart TV
+H0380,U037,M018,Avatar,Sci-Fi,James Cameron,2.2,2023-03-14,Yes,Tablet
+H0381,U037,M019,Knives Out,Thriller,Rian Johnson,4.3,2023-04-16,Yes,Tablet
+H0382,U037,M023,The Martian,Sci-Fi,Ridley Scott,2.5,2023-02-19,No,Laptop
+H0383,U037,M026,BlackKklansman,Drama,Spike Lee,2.1,2023-02-04,Yes,Smart TV
+H0384,U037,M008,Interstellar,Sci-Fi,Christopher Nolan,3.3,2023-06-25,Yes,Mobile
+H0385,U038,M006,Dune,Sci-Fi,Denis Villeneuve,1.1,2023-07-22,Yes,Tablet
+H0386,U038,M018,Avatar,Sci-Fi,James Cameron,2.5,2023-10-31,Yes,Mobile
+H0387,U038,M030,Tenet,Action,Christopher Nolan,2.0,2023-04-16,Yes,Smart TV
+H0388,U038,M011,Marriage Story,Drama,Noah Baumbach,3.8,2023-10-02,Yes,Mobile
+H0389,U038,M029,The Irishman,Drama,Martin Scorsese,3.7,2023-08-23,No,Laptop
+H0390,U038,M014,Hereditary,Horror,Ari Aster,2.4,2023-11-02,No,Smart TV
+H0391,U038,M015,La La Land,Romance,Damien Chazelle,2.2,2023-06-28,No,Mobile
+H0392,U038,M008,Interstellar,Sci-Fi,Christopher Nolan,3.5,2023-12-11,Yes,Smart TV
+H0393,U038,M013,The Notebook,Romance,Nick Cassavetes,1.5,2023-12-11,Yes,Mobile
+H0394,U038,M021,Joker,Drama,Todd Phillips,3.7,2023-06-06,Yes,Mobile
+H0395,U038,M028,A Quiet Place,Horror,John Krasinski,2.4,2023-09-19,Yes,Tablet
+H0396,U038,M020,Soul,Animation,Pete Docter,3.8,2023-08-05,Yes,Mobile
+H0397,U038,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.9,2023-09-08,Yes,Laptop
+H0398,U039,M020,Soul,Animation,Pete Docter,3.4,2023-07-29,No,Tablet
+H0399,U039,M002,Barbie,Comedy,Greta Gerwig,1.6,2023-09-08,Yes,Mobile
+H0400,U039,M028,A Quiet Place,Horror,John Krasinski,1.1,2023-05-30,Yes,Laptop
+H0401,U039,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.7,2023-03-28,No,Smart TV
+H0402,U039,M001,Inception,Sci-Fi,Christopher Nolan,1.4,2023-10-21,Yes,Smart TV
+H0403,U039,M016,Toy Story 4,Animation,Josh Cooley,2.9,2023-08-14,No,Smart TV
+H0404,U039,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.6,2023-12-01,Yes,Smart TV
+H0405,U039,M007,Get Out,Horror,Jordan Peele,1.9,2023-08-19,Yes,Tablet
+H0406,U039,M013,The Notebook,Romance,Nick Cassavetes,4.7,2023-03-02,Yes,Mobile
+H0407,U039,M018,Avatar,Sci-Fi,James Cameron,3.4,2023-10-29,No,Mobile
+H0408,U039,M017,The Social Network,Drama,David Fincher,1.5,2023-11-12,Yes,Mobile
+H0409,U039,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.0,2023-01-31,Yes,Mobile
+H0410,U040,M023,The Martian,Sci-Fi,Ridley Scott,4.5,2023-01-31,Yes,Mobile
+H0411,U040,M010,The Dark Knight,Action,Christopher Nolan,3.7,2023-05-08,Yes,Mobile
+H0412,U040,M029,The Irishman,Drama,Martin Scorsese,4.1,2023-12-13,Yes,Laptop
+H0413,U040,M019,Knives Out,Thriller,Rian Johnson,4.1,2023-11-18,No,Smart TV
+H0414,U040,M009,Nomadland,Drama,Chloe Zhao,4.7,2023-11-21,Yes,Tablet
+H0415,U040,M017,The Social Network,Drama,David Fincher,4.6,2023-09-21,Yes,Tablet
+H0416,U040,M022,Midsommar,Horror,Ari Aster,2.1,2023-09-07,Yes,Smart TV
+H0417,U040,M004,Parasite,Thriller,Bong Joon-ho,4.5,2023-08-23,Yes,Smart TV
+H0418,U040,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,4.1,2023-10-01,No,Mobile
+H0419,U040,M014,Hereditary,Horror,Ari Aster,1.9,2023-09-11,Yes,Laptop
+H0420,U041,M019,Knives Out,Thriller,Rian Johnson,4.2,2023-03-22,Yes,Tablet
+H0421,U041,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,4.5,2023-04-14,Yes,Laptop
+H0422,U041,M030,Tenet,Action,Christopher Nolan,4.1,2023-03-23,Yes,Smart TV
+H0423,U041,M016,Toy Story 4,Animation,Josh Cooley,2.3,2023-12-02,Yes,Laptop
+H0424,U041,M026,BlackKklansman,Drama,Spike Lee,4.9,2023-12-07,Yes,Smart TV
+H0425,U041,M011,Marriage Story,Drama,Noah Baumbach,4.4,2023-07-22,Yes,Tablet
+H0426,U041,M022,Midsommar,Horror,Ari Aster,3.6,2023-12-02,Yes,Smart TV
+H0427,U041,M002,Barbie,Comedy,Greta Gerwig,2.7,2023-04-20,Yes,Mobile
+H0428,U041,M023,The Martian,Sci-Fi,Ridley Scott,4.5,2023-09-23,Yes,Smart TV
+H0429,U041,M004,Parasite,Thriller,Bong Joon-ho,4.0,2023-12-23,Yes,Tablet
+H0430,U041,M015,La La Land,Romance,Damien Chazelle,1.5,2023-12-22,Yes,Mobile
+H0431,U041,M001,Inception,Sci-Fi,Christopher Nolan,3.6,2023-07-16,Yes,Smart TV
+H0432,U041,M021,Joker,Drama,Todd Phillips,4.1,2023-06-10,Yes,Mobile
+H0433,U042,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.3,2023-11-09,No,Laptop
+H0434,U042,M027,Free Guy,Action,Shawn Levy,3.2,2023-04-20,Yes,Tablet
+H0435,U042,M030,Tenet,Action,Christopher Nolan,3.4,2023-11-12,Yes,Smart TV
+H0436,U042,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.7,2023-02-21,Yes,Tablet
+H0437,U042,M021,Joker,Drama,Todd Phillips,4.9,2023-06-29,Yes,Mobile
+H0438,U042,M022,Midsommar,Horror,Ari Aster,2.0,2023-05-07,Yes,Mobile
+H0439,U042,M029,The Irishman,Drama,Martin Scorsese,4.4,2023-10-11,Yes,Smart TV
+H0440,U042,M003,Avengers: Endgame,Action,Christopher Nolan,4.1,2023-12-04,Yes,Mobile
+H0441,U042,M017,The Social Network,Drama,David Fincher,3.9,2023-07-20,Yes,Mobile
+H0442,U042,M019,Knives Out,Thriller,Rian Johnson,4.1,2023-09-11,Yes,Tablet
+H0443,U042,M001,Inception,Sci-Fi,Christopher Nolan,3.1,2023-11-23,Yes,Laptop
+H0444,U043,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,4.9,2023-08-30,Yes,Smart TV
+H0445,U043,M013,The Notebook,Romance,Nick Cassavetes,1.2,2023-10-28,Yes,Mobile
+H0446,U043,M028,A Quiet Place,Horror,John Krasinski,4.9,2023-01-21,No,Laptop
+H0447,U043,M027,Free Guy,Action,Shawn Levy,3.5,2023-11-18,No,Tablet
+H0448,U043,M019,Knives Out,Thriller,Rian Johnson,4.1,2023-12-26,Yes,Laptop
+H0449,U043,M014,Hereditary,Horror,Ari Aster,4.0,2023-02-12,Yes,Mobile
+H0450,U043,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,2.1,2023-10-02,Yes,Laptop
+H0451,U043,M018,Avatar,Sci-Fi,James Cameron,2.5,2023-12-24,Yes,Smart TV
+H0452,U043,M022,Midsommar,Horror,Ari Aster,3.6,2023-05-06,No,Smart TV
+H0453,U043,M006,Dune,Sci-Fi,Denis Villeneuve,3.1,2023-08-21,Yes,Laptop
+H0454,U044,M024,Crazy Rich Asians,Romance,Jon M. Chu,2.3,2023-03-27,Yes,Smart TV
+H0455,U044,M022,Midsommar,Horror,Ari Aster,2.2,2023-01-16,No,Laptop
+H0456,U044,M030,Tenet,Action,Christopher Nolan,1.2,2023-09-26,Yes,Tablet
+H0457,U044,M006,Dune,Sci-Fi,Denis Villeneuve,2.8,2023-08-22,Yes,Tablet
+H0458,U044,M004,Parasite,Thriller,Bong Joon-ho,1.6,2023-10-18,Yes,Laptop
+H0459,U044,M001,Inception,Sci-Fi,Christopher Nolan,4.1,2023-02-22,Yes,Mobile
+H0460,U044,M023,The Martian,Sci-Fi,Ridley Scott,1.0,2023-09-18,Yes,Mobile
+H0461,U044,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,2.7,2023-01-24,No,Mobile
+H0462,U044,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,4.3,2023-04-02,Yes,Tablet
+H0463,U044,M027,Free Guy,Action,Shawn Levy,2.1,2023-04-25,No,Laptop
+H0464,U044,M016,Toy Story 4,Animation,Josh Cooley,3.9,2023-05-19,Yes,Smart TV
+H0465,U044,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.4,2023-09-15,Yes,Mobile
+H0466,U044,M017,The Social Network,Drama,David Fincher,4.7,2023-04-25,Yes,Tablet
+H0467,U044,M018,Avatar,Sci-Fi,James Cameron,4.1,2023-02-05,Yes,Laptop
+H0468,U044,M009,Nomadland,Drama,Chloe Zhao,3.6,2023-06-17,No,Smart TV
+H0469,U045,M007,Get Out,Horror,Jordan Peele,4.4,2023-10-30,Yes,Mobile
+H0470,U045,M010,The Dark Knight,Action,Christopher Nolan,1.0,2023-03-19,No,Smart TV
+H0471,U045,M019,Knives Out,Thriller,Rian Johnson,2.9,2023-04-30,Yes,Laptop
+H0472,U045,M026,BlackKklansman,Drama,Spike Lee,4.6,2023-01-01,No,Laptop
+H0473,U045,M029,The Irishman,Drama,Martin Scorsese,3.8,2023-02-23,Yes,Tablet
+H0474,U045,M024,Crazy Rich Asians,Romance,Jon M. Chu,4.9,2023-09-09,Yes,Laptop
+H0475,U045,M020,Soul,Animation,Pete Docter,1.2,2023-02-17,Yes,Tablet
+H0476,U045,M008,Interstellar,Sci-Fi,Christopher Nolan,4.1,2023-12-25,No,Smart TV
+H0477,U045,M015,La La Land,Romance,Damien Chazelle,3.6,2023-10-25,Yes,Tablet
+H0478,U045,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.1,2023-02-08,Yes,Tablet
+H0479,U046,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,1.4,2023-10-27,Yes,Mobile
+H0480,U046,M008,Interstellar,Sci-Fi,Christopher Nolan,2.6,2023-08-19,No,Smart TV
+H0481,U046,M010,The Dark Knight,Action,Christopher Nolan,4.0,2023-10-02,Yes,Tablet
+H0482,U046,M009,Nomadland,Drama,Chloe Zhao,2.6,2023-06-07,Yes,Smart TV
+H0483,U046,M011,Marriage Story,Drama,Noah Baumbach,3.8,2023-03-22,Yes,Smart TV
+H0484,U046,M013,The Notebook,Romance,Nick Cassavetes,3.9,2023-04-21,Yes,Mobile
+H0485,U046,M023,The Martian,Sci-Fi,Ridley Scott,3.5,2023-02-16,Yes,Tablet
+H0486,U046,M026,BlackKklansman,Drama,Spike Lee,1.2,2023-09-20,Yes,Laptop
+H0487,U046,M024,Crazy Rich Asians,Romance,Jon M. Chu,1.1,2023-03-31,No,Tablet
+H0488,U046,M015,La La Land,Romance,Damien Chazelle,3.6,2023-10-12,Yes,Smart TV
+H0489,U046,M027,Free Guy,Action,Shawn Levy,3.7,2023-08-25,Yes,Smart TV
+H0490,U046,M029,The Irishman,Drama,Martin Scorsese,1.2,2023-01-07,Yes,Mobile
+H0491,U046,M003,Avengers: Endgame,Action,Christopher Nolan,4.7,2023-04-12,Yes,Smart TV
+H0492,U046,M007,Get Out,Horror,Jordan Peele,4.4,2023-10-26,Yes,Smart TV
+H0493,U046,M030,Tenet,Action,Christopher Nolan,3.8,2023-02-03,No,Mobile
+H0494,U047,M029,The Irishman,Drama,Martin Scorsese,4.9,2023-01-22,Yes,Mobile
+H0495,U047,M028,A Quiet Place,Horror,John Krasinski,4.1,2023-10-21,No,Tablet
+H0496,U047,M027,Free Guy,Action,Shawn Levy,4.1,2023-01-16,No,Mobile
+H0497,U047,M026,BlackKklansman,Drama,Spike Lee,3.8,2023-07-01,Yes,Laptop
+H0498,U047,M011,Marriage Story,Drama,Noah Baumbach,4.2,2023-05-24,Yes,Smart TV
+H0499,U047,M004,Parasite,Thriller,Bong Joon-ho,3.2,2023-11-11,Yes,Laptop
+H0500,U048,M014,Hereditary,Horror,Ari Aster,4.4,2023-05-08,Yes,Tablet
+H0501,U048,M029,The Irishman,Drama,Martin Scorsese,2.3,2024-01-01,No,Laptop
+H0502,U048,M018,Avatar,Sci-Fi,James Cameron,4.3,2023-10-17,No,Laptop
+H0503,U048,M016,Toy Story 4,Animation,Josh Cooley,1.1,2023-04-03,Yes,Smart TV
+H0504,U048,M002,Barbie,Comedy,Greta Gerwig,1.2,2023-05-24,No,Laptop
+H0505,U048,M003,Avengers: Endgame,Action,Christopher Nolan,4.5,2023-10-27,Yes,Smart TV
+H0506,U048,M009,Nomadland,Drama,Chloe Zhao,3.3,2023-05-07,Yes,Smart TV
+H0507,U048,M013,The Notebook,Romance,Nick Cassavetes,4.4,2023-04-23,No,Laptop
+H0508,U048,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,1.6,2023-03-30,Yes,Laptop
+H0509,U048,M030,Tenet,Action,Christopher Nolan,1.1,2023-10-30,Yes,Mobile
+H0510,U048,M007,Get Out,Horror,Jordan Peele,4.9,2023-10-16,No,Laptop
+H0511,U048,M017,The Social Network,Drama,David Fincher,2.7,2023-03-31,Yes,Smart TV
+H0512,U049,M020,Soul,Animation,Pete Docter,3.8,2023-04-14,Yes,Mobile
+H0513,U049,M008,Interstellar,Sci-Fi,Christopher Nolan,1.2,2023-06-15,Yes,Mobile
+H0514,U049,M001,Inception,Sci-Fi,Christopher Nolan,4.0,2023-02-26,Yes,Smart TV
+H0515,U049,M017,The Social Network,Drama,David Fincher,4.6,2023-07-11,No,Smart TV
+H0516,U049,M016,Toy Story 4,Animation,Josh Cooley,2.1,2023-06-22,Yes,Mobile
+H0517,U049,M028,A Quiet Place,Horror,John Krasinski,4.7,2023-08-12,No,Laptop
+H0518,U049,M011,Marriage Story,Drama,Noah Baumbach,4.6,2023-03-31,Yes,Mobile
+H0519,U049,M030,Tenet,Action,Christopher Nolan,4.4,2023-12-07,Yes,Tablet
+H0520,U050,M024,Crazy Rich Asians,Romance,Jon M. Chu,4.8,2023-07-20,Yes,Mobile
+H0521,U050,M023,The Martian,Sci-Fi,Ridley Scott,2.1,2023-11-05,Yes,Smart TV
+H0522,U050,M010,The Dark Knight,Action,Christopher Nolan,1.5,2023-09-12,Yes,Mobile
+H0523,U050,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,5.0,2023-06-27,Yes,Smart TV
+H0524,U050,M006,Dune,Sci-Fi,Denis Villeneuve,3.3,2023-12-29,Yes,Tablet
+H0525,U050,M030,Tenet,Action,Christopher Nolan,1.9,2023-01-06,Yes,Smart TV
+H0526,U050,M001,Inception,Sci-Fi,Christopher Nolan,1.9,2023-06-29,Yes,Smart TV
+H0527,U050,M029,The Irishman,Drama,Martin Scorsese,2.4,2023-01-25,No,Mobile
+H0528,U050,M019,Knives Out,Thriller,Rian Johnson,2.7,2023-07-31,No,Laptop
+H0529,U051,M013,The Notebook,Romance,Nick Cassavetes,1.1,2023-05-31,Yes,Smart TV
+H0530,U051,M004,Parasite,Thriller,Bong Joon-ho,4.0,2023-02-07,No,Mobile
+H0531,U051,M027,Free Guy,Action,Shawn Levy,4.3,2023-02-08,Yes,Laptop
+H0532,U051,M016,Toy Story 4,Animation,Josh Cooley,4.4,2023-11-01,No,Smart TV
+H0533,U051,M026,BlackKklansman,Drama,Spike Lee,4.3,2023-08-09,Yes,Tablet
+H0534,U051,M019,Knives Out,Thriller,Rian Johnson,3.6,2023-03-22,Yes,Mobile
+H0535,U051,M021,Joker,Drama,Todd Phillips,2.4,2023-04-08,Yes,Laptop
+H0536,U051,M022,Midsommar,Horror,Ari Aster,1.8,2023-06-02,Yes,Tablet
+H0537,U051,M008,Interstellar,Sci-Fi,Christopher Nolan,2.9,2023-10-20,No,Mobile
+H0538,U051,M006,Dune,Sci-Fi,Denis Villeneuve,2.3,2023-01-28,No,Smart TV
+H0539,U051,M015,La La Land,Romance,Damien Chazelle,3.9,2023-05-31,No,Mobile
+H0540,U051,M003,Avengers: Endgame,Action,Christopher Nolan,3.5,2023-02-19,Yes,Laptop
+H0541,U051,M002,Barbie,Comedy,Greta Gerwig,2.7,2023-02-11,Yes,Laptop
+H0542,U052,M016,Toy Story 4,Animation,Josh Cooley,1.7,2023-07-09,Yes,Laptop
+H0543,U052,M030,Tenet,Action,Christopher Nolan,2.6,2023-08-14,Yes,Laptop
+H0544,U052,M022,Midsommar,Horror,Ari Aster,1.2,2023-10-16,Yes,Smart TV
+H0545,U052,M009,Nomadland,Drama,Chloe Zhao,2.2,2023-12-09,No,Mobile
+H0546,U052,M003,Avengers: Endgame,Action,Christopher Nolan,1.2,2023-10-11,No,Tablet
+H0547,U052,M021,Joker,Drama,Todd Phillips,3.4,2023-10-02,No,Mobile
+H0548,U052,M018,Avatar,Sci-Fi,James Cameron,2.0,2023-09-01,No,Smart TV
+H0549,U052,M013,The Notebook,Romance,Nick Cassavetes,4.4,2023-09-15,Yes,Smart TV
+H0550,U052,M006,Dune,Sci-Fi,Denis Villeneuve,1.6,2023-08-18,Yes,Mobile
+H0551,U052,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,1.4,2023-04-09,No,Smart TV
+H0552,U052,M023,The Martian,Sci-Fi,Ridley Scott,2.5,2023-12-16,Yes,Laptop
+H0553,U053,M030,Tenet,Action,Christopher Nolan,4.3,2023-05-22,Yes,Tablet
+H0554,U053,M024,Crazy Rich Asians,Romance,Jon M. Chu,4.1,2023-02-27,Yes,Smart TV
+H0555,U053,M026,BlackKklansman,Drama,Spike Lee,3.0,2023-02-24,Yes,Laptop
+H0556,U053,M003,Avengers: Endgame,Action,Christopher Nolan,4.8,2023-10-02,No,Laptop
+H0557,U053,M027,Free Guy,Action,Shawn Levy,4.5,2023-07-16,No,Smart TV
+H0558,U053,M013,The Notebook,Romance,Nick Cassavetes,3.9,2023-03-30,Yes,Tablet
+H0559,U053,M018,Avatar,Sci-Fi,James Cameron,2.4,2023-01-20,Yes,Mobile
+H0560,U053,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.6,2023-01-26,Yes,Laptop
+H0561,U053,M029,The Irishman,Drama,Martin Scorsese,2.2,2023-01-11,Yes,Laptop
+H0562,U053,M011,Marriage Story,Drama,Noah Baumbach,3.9,2023-05-24,Yes,Mobile
+H0563,U054,M010,The Dark Knight,Action,Christopher Nolan,3.1,2023-08-02,Yes,Mobile
+H0564,U054,M024,Crazy Rich Asians,Romance,Jon M. Chu,3.8,2023-08-15,No,Tablet
+H0565,U054,M015,La La Land,Romance,Damien Chazelle,4.8,2023-09-22,Yes,Mobile
+H0566,U054,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,2.1,2023-02-03,No,Mobile
+H0567,U054,M011,Marriage Story,Drama,Noah Baumbach,4.1,2023-09-26,Yes,Mobile
+H0568,U054,M009,Nomadland,Drama,Chloe Zhao,4.1,2023-04-09,Yes,Smart TV
+H0569,U054,M029,The Irishman,Drama,Martin Scorsese,1.1,2023-05-08,Yes,Laptop
+H0570,U055,M009,Nomadland,Drama,Chloe Zhao,1.1,2023-12-15,Yes,Tablet
+H0571,U055,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,2.6,2023-11-01,No,Laptop
+H0572,U055,M027,Free Guy,Action,Shawn Levy,1.6,2023-06-26,Yes,Smart TV
+H0573,U055,M015,La La Land,Romance,Damien Chazelle,1.1,2023-05-26,Yes,Mobile
+H0574,U055,M017,The Social Network,Drama,David Fincher,3.7,2023-10-20,Yes,Mobile
+H0575,U055,M013,The Notebook,Romance,Nick Cassavetes,1.8,2023-11-28,Yes,Laptop
+H0576,U055,M021,Joker,Drama,Todd Phillips,2.4,2023-11-30,Yes,Smart TV
+H0577,U055,M004,Parasite,Thriller,Bong Joon-ho,4.9,2023-08-31,Yes,Smart TV
+H0578,U056,M009,Nomadland,Drama,Chloe Zhao,4.1,2023-08-05,Yes,Tablet
+H0579,U056,M020,Soul,Animation,Pete Docter,1.8,2023-05-10,Yes,Tablet
+H0580,U056,M026,BlackKklansman,Drama,Spike Lee,1.4,2023-10-27,Yes,Laptop
+H0581,U056,M010,The Dark Knight,Action,Christopher Nolan,3.4,2023-06-02,No,Smart TV
+H0582,U056,M023,The Martian,Sci-Fi,Ridley Scott,5.0,2023-06-22,Yes,Laptop
+H0583,U056,M028,A Quiet Place,Horror,John Krasinski,4.5,2023-05-14,Yes,Mobile
+H0584,U056,M021,Joker,Drama,Todd Phillips,2.8,2023-03-18,Yes,Smart TV
+H0585,U056,M030,Tenet,Action,Christopher Nolan,2.4,2023-11-04,Yes,Mobile
+H0586,U057,M021,Joker,Drama,Todd Phillips,2.4,2023-08-03,Yes,Mobile
+H0587,U057,M016,Toy Story 4,Animation,Josh Cooley,4.6,2023-06-25,Yes,Tablet
+H0588,U057,M010,The Dark Knight,Action,Christopher Nolan,2.3,2023-12-10,Yes,Mobile
+H0589,U057,M009,Nomadland,Drama,Chloe Zhao,4.1,2023-12-03,Yes,Laptop
+H0590,U057,M030,Tenet,Action,Christopher Nolan,2.6,2023-02-19,Yes,Mobile
+H0591,U058,M029,The Irishman,Drama,Martin Scorsese,1.2,2023-08-29,Yes,Tablet
+H0592,U058,M011,Marriage Story,Drama,Noah Baumbach,2.8,2023-04-10,No,Laptop
+H0593,U058,M021,Joker,Drama,Todd Phillips,1.2,2023-07-31,Yes,Mobile
+H0594,U058,M003,Avengers: Endgame,Action,Christopher Nolan,2.2,2023-04-13,No,Mobile
+H0595,U058,M008,Interstellar,Sci-Fi,Christopher Nolan,4.8,2023-06-11,Yes,Smart TV
+H0596,U058,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.0,2023-09-07,Yes,Laptop
+H0597,U058,M026,BlackKklansman,Drama,Spike Lee,1.2,2023-11-21,No,Laptop
+H0598,U058,M010,The Dark Knight,Action,Christopher Nolan,3.7,2023-04-18,Yes,Mobile
+H0599,U058,M014,Hereditary,Horror,Ari Aster,3.7,2023-09-08,Yes,Mobile
+H0600,U058,M030,Tenet,Action,Christopher Nolan,2.5,2023-11-11,No,Tablet
+H0601,U058,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,4.4,2023-08-08,No,Smart TV
+H0602,U058,M009,Nomadland,Drama,Chloe Zhao,2.9,2023-01-20,Yes,Smart TV
+H0603,U058,M023,The Martian,Sci-Fi,Ridley Scott,4.6,2023-06-14,Yes,Smart TV
+H0604,U058,M015,La La Land,Romance,Damien Chazelle,1.0,2023-12-13,Yes,Mobile
+H0605,U058,M004,Parasite,Thriller,Bong Joon-ho,4.8,2023-12-22,Yes,Mobile
+H0606,U059,M013,The Notebook,Romance,Nick Cassavetes,3.9,2023-01-24,Yes,Tablet
+H0607,U059,M017,The Social Network,Drama,David Fincher,3.1,2023-09-24,Yes,Tablet
+H0608,U059,M019,Knives Out,Thriller,Rian Johnson,5.0,2023-12-18,Yes,Tablet
+H0609,U059,M010,The Dark Knight,Action,Christopher Nolan,3.6,2023-07-03,Yes,Tablet
+H0610,U059,M006,Dune,Sci-Fi,Denis Villeneuve,1.8,2023-01-10,Yes,Mobile
+H0611,U059,M003,Avengers: Endgame,Action,Christopher Nolan,3.1,2023-01-12,Yes,Smart TV
+H0612,U060,M023,The Martian,Sci-Fi,Ridley Scott,4.5,2023-11-01,Yes,Smart TV
+H0613,U060,M021,Joker,Drama,Todd Phillips,4.5,2023-01-25,No,Tablet
+H0614,U060,M026,BlackKklansman,Drama,Spike Lee,3.7,2023-07-14,Yes,Tablet
+H0615,U060,M002,Barbie,Comedy,Greta Gerwig,1.5,2023-12-26,Yes,Laptop
+H0616,U060,M013,The Notebook,Romance,Nick Cassavetes,3.3,2023-08-04,Yes,Mobile
+H0617,U060,M029,The Irishman,Drama,Martin Scorsese,4.7,2023-08-03,Yes,Smart TV
+H0618,U060,M009,Nomadland,Drama,Chloe Zhao,3.7,2023-05-25,Yes,Tablet
+H0619,U060,M018,Avatar,Sci-Fi,James Cameron,3.1,2023-04-12,Yes,Mobile
+H0620,U060,M020,Soul,Animation,Pete Docter,3.5,2023-07-03,Yes,Mobile
+H0621,U060,M027,Free Guy,Action,Shawn Levy,2.9,2023-01-21,Yes,Tablet
+H0622,U061,M008,Interstellar,Sci-Fi,Christopher Nolan,3.7,2023-02-16,Yes,Smart TV
+H0623,U061,M001,Inception,Sci-Fi,Christopher Nolan,3.3,2023-05-12,No,Laptop
+H0624,U061,M029,The Irishman,Drama,Martin Scorsese,2.6,2023-05-16,Yes,Mobile
+H0625,U061,M022,Midsommar,Horror,Ari Aster,4.0,2023-01-21,Yes,Laptop
+H0626,U061,M003,Avengers: Endgame,Action,Christopher Nolan,3.6,2023-08-07,Yes,Smart TV
+H0627,U061,M004,Parasite,Thriller,Bong Joon-ho,4.8,2023-01-05,Yes,Laptop
+H0628,U061,M019,Knives Out,Thriller,Rian Johnson,4.8,2023-07-03,Yes,Smart TV
+H0629,U061,M027,Free Guy,Action,Shawn Levy,3.9,2023-07-10,Yes,Smart TV
+H0630,U061,M016,Toy Story 4,Animation,Josh Cooley,2.4,2023-07-25,No,Laptop
+H0631,U061,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.4,2023-07-17,No,Tablet
+H0632,U062,M029,The Irishman,Drama,Martin Scorsese,4.1,2023-11-09,Yes,Smart TV
+H0633,U062,M026,BlackKklansman,Drama,Spike Lee,4.8,2023-12-17,Yes,Tablet
+H0634,U062,M006,Dune,Sci-Fi,Denis Villeneuve,1.4,2023-09-07,No,Tablet
+H0635,U062,M004,Parasite,Thriller,Bong Joon-ho,3.6,2023-01-24,Yes,Smart TV
+H0636,U062,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,4.0,2023-12-27,Yes,Laptop
+H0637,U062,M023,The Martian,Sci-Fi,Ridley Scott,2.8,2023-09-23,Yes,Tablet
+H0638,U062,M024,Crazy Rich Asians,Romance,Jon M. Chu,3.5,2023-12-05,No,Laptop
+H0639,U062,M002,Barbie,Comedy,Greta Gerwig,3.4,2023-12-06,No,Mobile
+H0640,U062,M028,A Quiet Place,Horror,John Krasinski,4.8,2023-10-13,Yes,Smart TV
+H0641,U062,M027,Free Guy,Action,Shawn Levy,4.3,2023-11-26,No,Tablet
+H0642,U062,M014,Hereditary,Horror,Ari Aster,3.6,2023-03-26,No,Laptop
+H0643,U062,M019,Knives Out,Thriller,Rian Johnson,4.0,2023-05-04,Yes,Smart TV
+H0644,U062,M016,Toy Story 4,Animation,Josh Cooley,1.8,2023-09-17,No,Tablet
+H0645,U062,M015,La La Land,Romance,Damien Chazelle,1.3,2023-05-01,No,Tablet
+H0646,U062,M022,Midsommar,Horror,Ari Aster,4.8,2023-02-15,No,Laptop
+H0647,U063,M016,Toy Story 4,Animation,Josh Cooley,1.1,2023-07-31,Yes,Smart TV
+H0648,U063,M024,Crazy Rich Asians,Romance,Jon M. Chu,4.4,2023-11-06,Yes,Mobile
+H0649,U063,M021,Joker,Drama,Todd Phillips,3.4,2023-12-02,Yes,Laptop
+H0650,U063,M001,Inception,Sci-Fi,Christopher Nolan,4.7,2023-01-28,No,Laptop
+H0651,U063,M004,Parasite,Thriller,Bong Joon-ho,3.7,2023-10-14,No,Laptop
+H0652,U063,M013,The Notebook,Romance,Nick Cassavetes,1.4,2023-08-20,Yes,Smart TV
+H0653,U064,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,2.7,2023-03-26,No,Smart TV
+H0654,U064,M027,Free Guy,Action,Shawn Levy,3.1,2023-05-11,Yes,Smart TV
+H0655,U064,M021,Joker,Drama,Todd Phillips,3.8,2023-07-21,Yes,Laptop
+H0656,U064,M026,BlackKklansman,Drama,Spike Lee,4.6,2023-02-25,Yes,Smart TV
+H0657,U064,M010,The Dark Knight,Action,Christopher Nolan,2.6,2023-08-19,Yes,Tablet
+H0658,U064,M018,Avatar,Sci-Fi,James Cameron,2.9,2023-01-03,Yes,Tablet
+H0659,U064,M017,The Social Network,Drama,David Fincher,4.2,2023-10-27,Yes,Mobile
+H0660,U064,M030,Tenet,Action,Christopher Nolan,1.4,2023-03-07,Yes,Tablet
+H0661,U064,M004,Parasite,Thriller,Bong Joon-ho,4.4,2023-08-03,Yes,Laptop
+H0662,U064,M002,Barbie,Comedy,Greta Gerwig,4.4,2023-07-23,Yes,Tablet
+H0663,U065,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,2.9,2023-12-26,Yes,Mobile
+H0664,U065,M014,Hereditary,Horror,Ari Aster,1.7,2023-04-13,Yes,Laptop
+H0665,U065,M020,Soul,Animation,Pete Docter,1.5,2023-12-11,Yes,Laptop
+H0666,U065,M023,The Martian,Sci-Fi,Ridley Scott,1.4,2023-12-30,Yes,Tablet
+H0667,U065,M024,Crazy Rich Asians,Romance,Jon M. Chu,4.4,2023-10-26,No,Laptop
+H0668,U065,M017,The Social Network,Drama,David Fincher,3.8,2023-08-05,Yes,Smart TV
+H0669,U065,M010,The Dark Knight,Action,Christopher Nolan,1.5,2023-07-15,Yes,Mobile
+H0670,U066,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.6,2023-04-15,Yes,Laptop
+H0671,U066,M026,BlackKklansman,Drama,Spike Lee,1.4,2023-08-20,Yes,Tablet
+H0672,U066,M006,Dune,Sci-Fi,Denis Villeneuve,2.8,2023-05-02,Yes,Smart TV
+H0673,U066,M010,The Dark Knight,Action,Christopher Nolan,2.4,2023-07-15,Yes,Smart TV
+H0674,U066,M022,Midsommar,Horror,Ari Aster,3.6,2023-01-07,Yes,Tablet
+H0675,U066,M009,Nomadland,Drama,Chloe Zhao,4.2,2023-04-26,Yes,Mobile
+H0676,U066,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,2.0,2023-04-10,Yes,Smart TV
+H0677,U066,M002,Barbie,Comedy,Greta Gerwig,4.4,2023-04-06,Yes,Tablet
+H0678,U066,M027,Free Guy,Action,Shawn Levy,2.5,2023-01-21,Yes,Mobile
+H0679,U067,M019,Knives Out,Thriller,Rian Johnson,3.6,2023-03-21,Yes,Smart TV
+H0680,U067,M028,A Quiet Place,Horror,John Krasinski,4.4,2023-11-17,Yes,Tablet
+H0681,U067,M009,Nomadland,Drama,Chloe Zhao,2.9,2023-10-21,Yes,Laptop
+H0682,U067,M001,Inception,Sci-Fi,Christopher Nolan,1.8,2023-09-27,Yes,Smart TV
+H0683,U067,M011,Marriage Story,Drama,Noah Baumbach,1.6,2023-09-16,No,Smart TV
+H0684,U067,M015,La La Land,Romance,Damien Chazelle,1.8,2023-06-28,Yes,Laptop
+H0685,U067,M023,The Martian,Sci-Fi,Ridley Scott,2.3,2023-06-19,Yes,Tablet
+H0686,U068,M027,Free Guy,Action,Shawn Levy,4.1,2023-12-16,No,Smart TV
+H0687,U068,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.9,2023-07-17,Yes,Smart TV
+H0688,U068,M021,Joker,Drama,Todd Phillips,3.9,2023-09-22,Yes,Tablet
+H0689,U068,M001,Inception,Sci-Fi,Christopher Nolan,3.6,2023-09-07,Yes,Laptop
+H0690,U068,M004,Parasite,Thriller,Bong Joon-ho,1.3,2023-09-21,Yes,Mobile
+H0691,U068,M022,Midsommar,Horror,Ari Aster,2.9,2023-10-03,Yes,Mobile
+H0692,U068,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.4,2023-12-10,Yes,Tablet
+H0693,U068,M015,La La Land,Romance,Damien Chazelle,3.8,2023-02-23,No,Smart TV
+H0694,U068,M008,Interstellar,Sci-Fi,Christopher Nolan,3.7,2023-12-18,No,Laptop
+H0695,U068,M028,A Quiet Place,Horror,John Krasinski,1.3,2023-01-20,Yes,Mobile
+H0696,U068,M020,Soul,Animation,Pete Docter,4.3,2023-05-09,Yes,Laptop
+H0697,U068,M029,The Irishman,Drama,Martin Scorsese,2.4,2023-07-28,No,Tablet
+H0698,U068,M002,Barbie,Comedy,Greta Gerwig,1.1,2023-06-11,Yes,Smart TV
+H0699,U069,M024,Crazy Rich Asians,Romance,Jon M. Chu,3.7,2023-05-25,No,Tablet
+H0700,U069,M020,Soul,Animation,Pete Docter,4.7,2023-07-22,Yes,Tablet
+H0701,U069,M003,Avengers: Endgame,Action,Christopher Nolan,2.9,2023-03-22,Yes,Tablet
+H0702,U069,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.9,2023-10-07,Yes,Laptop
+H0703,U069,M030,Tenet,Action,Christopher Nolan,4.1,2023-12-13,Yes,Smart TV
+H0704,U069,M019,Knives Out,Thriller,Rian Johnson,4.1,2023-10-11,Yes,Smart TV
+H0705,U069,M002,Barbie,Comedy,Greta Gerwig,3.5,2023-01-22,No,Smart TV
+H0706,U069,M023,The Martian,Sci-Fi,Ridley Scott,1.7,2023-06-06,Yes,Mobile
+H0707,U069,M028,A Quiet Place,Horror,John Krasinski,4.9,2023-07-31,Yes,Mobile
+H0708,U069,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,1.8,2023-04-05,Yes,Mobile
+H0709,U069,M017,The Social Network,Drama,David Fincher,3.8,2023-02-28,Yes,Tablet
+H0710,U069,M004,Parasite,Thriller,Bong Joon-ho,2.9,2023-11-27,Yes,Smart TV
+H0711,U069,M010,The Dark Knight,Action,Christopher Nolan,1.3,2023-05-09,No,Laptop
+H0712,U069,M018,Avatar,Sci-Fi,James Cameron,1.4,2023-07-02,Yes,Smart TV
+H0713,U069,M022,Midsommar,Horror,Ari Aster,4.4,2023-05-26,Yes,Laptop
+H0714,U070,M015,La La Land,Romance,Damien Chazelle,1.6,2023-08-08,Yes,Mobile
+H0715,U070,M011,Marriage Story,Drama,Noah Baumbach,3.5,2023-04-24,No,Laptop
+H0716,U070,M020,Soul,Animation,Pete Docter,1.5,2023-07-04,Yes,Tablet
+H0717,U070,M022,Midsommar,Horror,Ari Aster,4.2,2023-08-25,Yes,Tablet
+H0718,U070,M010,The Dark Knight,Action,Christopher Nolan,1.4,2023-10-10,Yes,Laptop
+H0719,U070,M023,The Martian,Sci-Fi,Ridley Scott,4.8,2023-03-13,Yes,Laptop
+H0720,U070,M019,Knives Out,Thriller,Rian Johnson,1.3,2023-11-17,Yes,Smart TV
+H0721,U070,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.2,2023-09-17,No,Mobile
+H0722,U070,M024,Crazy Rich Asians,Romance,Jon M. Chu,2.9,2023-01-19,No,Mobile
+H0723,U070,M027,Free Guy,Action,Shawn Levy,2.4,2023-07-07,Yes,Mobile
+H0724,U070,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.3,2023-08-26,Yes,Tablet
+H0725,U070,M029,The Irishman,Drama,Martin Scorsese,2.8,2023-07-06,Yes,Mobile
+H0726,U071,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,1.2,2023-04-29,Yes,Mobile
+H0727,U071,M015,La La Land,Romance,Damien Chazelle,3.3,2023-01-22,Yes,Tablet
+H0728,U071,M006,Dune,Sci-Fi,Denis Villeneuve,4.9,2023-08-29,Yes,Smart TV
+H0729,U071,M028,A Quiet Place,Horror,John Krasinski,2.1,2023-11-29,Yes,Laptop
+H0730,U071,M019,Knives Out,Thriller,Rian Johnson,2.9,2023-10-24,Yes,Tablet
+H0731,U071,M026,BlackKklansman,Drama,Spike Lee,2.3,2023-12-01,Yes,Laptop
+H0732,U071,M022,Midsommar,Horror,Ari Aster,4.4,2023-07-12,Yes,Tablet
+H0733,U071,M030,Tenet,Action,Christopher Nolan,4.7,2023-06-30,Yes,Tablet
+H0734,U071,M016,Toy Story 4,Animation,Josh Cooley,4.1,2023-09-04,Yes,Mobile
+H0735,U071,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.7,2023-08-14,Yes,Laptop
+H0736,U071,M002,Barbie,Comedy,Greta Gerwig,1.5,2023-04-19,Yes,Laptop
+H0737,U071,M008,Interstellar,Sci-Fi,Christopher Nolan,4.6,2023-11-05,Yes,Mobile
+H0738,U071,M024,Crazy Rich Asians,Romance,Jon M. Chu,3.8,2023-08-01,Yes,Tablet
+H0739,U072,M016,Toy Story 4,Animation,Josh Cooley,1.5,2023-10-21,Yes,Laptop
+H0740,U072,M030,Tenet,Action,Christopher Nolan,2.8,2023-04-03,No,Smart TV
+H0741,U072,M007,Get Out,Horror,Jordan Peele,3.9,2023-12-05,Yes,Mobile
+H0742,U072,M019,Knives Out,Thriller,Rian Johnson,4.4,2023-08-18,No,Tablet
+H0743,U072,M006,Dune,Sci-Fi,Denis Villeneuve,3.8,2023-03-29,No,Mobile
+H0744,U072,M021,Joker,Drama,Todd Phillips,3.9,2023-10-26,Yes,Laptop
+H0745,U072,M014,Hereditary,Horror,Ari Aster,3.5,2023-03-27,Yes,Tablet
+H0746,U072,M001,Inception,Sci-Fi,Christopher Nolan,4.4,2023-11-02,Yes,Tablet
+H0747,U072,M008,Interstellar,Sci-Fi,Christopher Nolan,3.7,2023-07-17,Yes,Mobile
+H0748,U072,M002,Barbie,Comedy,Greta Gerwig,4.0,2023-09-25,No,Mobile
+H0749,U072,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,1.3,2023-11-07,No,Smart TV
+H0750,U072,M027,Free Guy,Action,Shawn Levy,2.8,2023-09-30,Yes,Smart TV
+H0751,U072,M026,BlackKklansman,Drama,Spike Lee,3.3,2023-09-04,Yes,Tablet
+H0752,U072,M020,Soul,Animation,Pete Docter,2.5,2023-09-25,Yes,Tablet
+H0753,U072,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,4.3,2023-04-28,No,Tablet
+H0754,U073,M019,Knives Out,Thriller,Rian Johnson,4.6,2023-09-02,Yes,Laptop
+H0755,U073,M026,BlackKklansman,Drama,Spike Lee,4.8,2023-11-03,No,Laptop
+H0756,U073,M024,Crazy Rich Asians,Romance,Jon M. Chu,1.0,2023-04-07,Yes,Smart TV
+H0757,U073,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,1.0,2023-09-24,Yes,Laptop
+H0758,U073,M023,The Martian,Sci-Fi,Ridley Scott,2.3,2023-07-29,Yes,Tablet
+H0759,U073,M030,Tenet,Action,Christopher Nolan,4.4,2023-11-30,Yes,Tablet
+H0760,U073,M004,Parasite,Thriller,Bong Joon-ho,4.0,2023-10-17,Yes,Tablet
+H0761,U073,M014,Hereditary,Horror,Ari Aster,2.4,2023-04-15,No,Mobile
+H0762,U073,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.0,2023-07-09,No,Laptop
+H0763,U073,M009,Nomadland,Drama,Chloe Zhao,4.4,2023-06-07,No,Mobile
+H0764,U074,M004,Parasite,Thriller,Bong Joon-ho,4.4,2023-07-19,Yes,Smart TV
+H0765,U074,M024,Crazy Rich Asians,Romance,Jon M. Chu,2.7,2023-03-16,No,Smart TV
+H0766,U074,M008,Interstellar,Sci-Fi,Christopher Nolan,3.9,2023-02-02,Yes,Smart TV
+H0767,U074,M015,La La Land,Romance,Damien Chazelle,1.1,2023-11-08,No,Tablet
+H0768,U074,M026,BlackKklansman,Drama,Spike Lee,3.3,2023-11-11,Yes,Smart TV
+H0769,U074,M023,The Martian,Sci-Fi,Ridley Scott,4.5,2023-03-31,No,Smart TV
+H0770,U074,M006,Dune,Sci-Fi,Denis Villeneuve,4.8,2023-04-14,Yes,Mobile
+H0771,U074,M030,Tenet,Action,Christopher Nolan,3.7,2023-01-18,Yes,Mobile
+H0772,U074,M007,Get Out,Horror,Jordan Peele,1.1,2023-12-12,Yes,Smart TV
+H0773,U074,M017,The Social Network,Drama,David Fincher,1.3,2023-03-22,Yes,Tablet
+H0774,U074,M013,The Notebook,Romance,Nick Cassavetes,3.3,2023-06-30,No,Mobile
+H0775,U074,M011,Marriage Story,Drama,Noah Baumbach,1.1,2023-09-23,Yes,Smart TV
+H0776,U074,M018,Avatar,Sci-Fi,James Cameron,3.9,2023-10-09,Yes,Laptop
+H0777,U074,M002,Barbie,Comedy,Greta Gerwig,1.8,2023-05-22,Yes,Tablet
+H0778,U074,M029,The Irishman,Drama,Martin Scorsese,3.0,2023-07-26,Yes,Mobile
+H0779,U075,M017,The Social Network,Drama,David Fincher,1.9,2023-10-22,No,Tablet
+H0780,U075,M004,Parasite,Thriller,Bong Joon-ho,4.2,2023-10-16,Yes,Laptop
+H0781,U075,M018,Avatar,Sci-Fi,James Cameron,3.4,2023-08-23,Yes,Tablet
+H0782,U075,M003,Avengers: Endgame,Action,Christopher Nolan,1.9,2023-03-01,No,Mobile
+H0783,U075,M030,Tenet,Action,Christopher Nolan,3.5,2023-12-13,Yes,Tablet
+H0784,U075,M010,The Dark Knight,Action,Christopher Nolan,2.8,2023-06-30,Yes,Laptop
+H0785,U075,M011,Marriage Story,Drama,Noah Baumbach,2.0,2023-05-08,No,Laptop
+H0786,U075,M029,The Irishman,Drama,Martin Scorsese,2.9,2023-02-08,Yes,Tablet
+H0787,U075,M026,BlackKklansman,Drama,Spike Lee,2.2,2023-06-10,Yes,Mobile
+H0788,U075,M009,Nomadland,Drama,Chloe Zhao,4.3,2023-12-16,Yes,Tablet
+H0789,U075,M028,A Quiet Place,Horror,John Krasinski,1.8,2023-04-13,Yes,Laptop
+H0790,U076,M008,Interstellar,Sci-Fi,Christopher Nolan,4.9,2023-03-03,No,Smart TV
+H0791,U076,M007,Get Out,Horror,Jordan Peele,4.4,2023-10-05,No,Laptop
+H0792,U076,M027,Free Guy,Action,Shawn Levy,2.1,2023-11-14,Yes,Tablet
+H0793,U076,M030,Tenet,Action,Christopher Nolan,4.4,2023-04-04,Yes,Tablet
+H0794,U076,M020,Soul,Animation,Pete Docter,4.6,2023-04-24,Yes,Smart TV
+H0795,U076,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.7,2023-09-27,No,Smart TV
+H0796,U076,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,4.0,2023-09-15,Yes,Tablet
+H0797,U076,M004,Parasite,Thriller,Bong Joon-ho,3.4,2023-03-03,No,Laptop
+H0798,U077,M001,Inception,Sci-Fi,Christopher Nolan,4.0,2023-02-21,Yes,Mobile
+H0799,U077,M022,Midsommar,Horror,Ari Aster,1.9,2023-10-08,Yes,Tablet
+H0800,U077,M007,Get Out,Horror,Jordan Peele,2.2,2023-11-10,Yes,Tablet
+H0801,U077,M013,The Notebook,Romance,Nick Cassavetes,1.7,2023-08-06,Yes,Laptop
+H0802,U077,M019,Knives Out,Thriller,Rian Johnson,2.0,2023-07-25,Yes,Mobile
+H0803,U078,M022,Midsommar,Horror,Ari Aster,3.8,2023-01-05,No,Mobile
+H0804,U078,M008,Interstellar,Sci-Fi,Christopher Nolan,4.3,2023-11-19,Yes,Tablet
+H0805,U078,M027,Free Guy,Action,Shawn Levy,1.9,2023-06-03,Yes,Tablet
+H0806,U078,M004,Parasite,Thriller,Bong Joon-ho,3.4,2023-02-20,Yes,Mobile
+H0807,U078,M024,Crazy Rich Asians,Romance,Jon M. Chu,4.2,2023-05-11,Yes,Tablet
+H0808,U078,M009,Nomadland,Drama,Chloe Zhao,1.9,2023-06-21,Yes,Laptop
+H0809,U078,M029,The Irishman,Drama,Martin Scorsese,1.1,2023-06-26,Yes,Laptop
+H0810,U078,M018,Avatar,Sci-Fi,James Cameron,4.9,2023-12-14,Yes,Mobile
+H0811,U078,M014,Hereditary,Horror,Ari Aster,4.0,2023-05-26,No,Tablet
+H0812,U078,M013,The Notebook,Romance,Nick Cassavetes,4.1,2023-02-10,Yes,Tablet
+H0813,U078,M007,Get Out,Horror,Jordan Peele,4.9,2023-11-20,Yes,Laptop
+H0814,U078,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.2,2023-08-04,No,Smart TV
+H0815,U078,M019,Knives Out,Thriller,Rian Johnson,1.6,2023-02-10,Yes,Laptop
+H0816,U078,M016,Toy Story 4,Animation,Josh Cooley,3.3,2023-06-12,Yes,Tablet
+H0817,U079,M029,The Irishman,Drama,Martin Scorsese,1.6,2023-03-27,Yes,Mobile
+H0818,U079,M015,La La Land,Romance,Damien Chazelle,3.3,2023-05-01,Yes,Mobile
+H0819,U079,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,2.4,2023-03-27,Yes,Smart TV
+H0820,U079,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.3,2023-08-31,Yes,Tablet
+H0821,U079,M024,Crazy Rich Asians,Romance,Jon M. Chu,3.7,2023-09-26,Yes,Smart TV
+H0822,U079,M019,Knives Out,Thriller,Rian Johnson,3.2,2023-05-15,Yes,Tablet
+H0823,U079,M017,The Social Network,Drama,David Fincher,1.8,2023-06-08,Yes,Tablet
+H0824,U079,M030,Tenet,Action,Christopher Nolan,1.4,2023-11-17,Yes,Smart TV
+H0825,U079,M014,Hereditary,Horror,Ari Aster,3.3,2023-01-18,Yes,Tablet
+H0826,U080,M028,A Quiet Place,Horror,John Krasinski,3.6,2023-11-20,No,Laptop
+H0827,U080,M018,Avatar,Sci-Fi,James Cameron,2.7,2023-06-27,Yes,Smart TV
+H0828,U080,M009,Nomadland,Drama,Chloe Zhao,4.0,2023-08-15,No,Laptop
+H0829,U080,M029,The Irishman,Drama,Martin Scorsese,4.0,2023-03-21,Yes,Mobile
+H0830,U080,M015,La La Land,Romance,Damien Chazelle,2.0,2023-06-26,Yes,Tablet
+H0831,U080,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,2.0,2023-09-02,No,Laptop
+H0832,U080,M023,The Martian,Sci-Fi,Ridley Scott,1.8,2023-11-02,Yes,Laptop
+H0833,U080,M027,Free Guy,Action,Shawn Levy,2.4,2023-04-07,No,Tablet
+H0834,U080,M006,Dune,Sci-Fi,Denis Villeneuve,1.6,2023-05-08,No,Tablet
+H0835,U080,M019,Knives Out,Thriller,Rian Johnson,3.9,2023-04-23,No,Mobile
+H0836,U080,M020,Soul,Animation,Pete Docter,3.7,2023-09-22,Yes,Laptop
+H0837,U080,M026,BlackKklansman,Drama,Spike Lee,4.6,2023-11-29,Yes,Tablet
+H0838,U081,M028,A Quiet Place,Horror,John Krasinski,2.6,2023-11-13,No,Mobile
+H0839,U081,M003,Avengers: Endgame,Action,Christopher Nolan,3.5,2023-06-14,Yes,Smart TV
+H0840,U081,M006,Dune,Sci-Fi,Denis Villeneuve,5.0,2023-04-06,Yes,Laptop
+H0841,U081,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.5,2023-03-06,Yes,Mobile
+H0842,U081,M010,The Dark Knight,Action,Christopher Nolan,3.7,2023-02-16,No,Mobile
+H0843,U081,M004,Parasite,Thriller,Bong Joon-ho,4.1,2023-06-25,No,Laptop
+H0844,U081,M021,Joker,Drama,Todd Phillips,3.4,2023-08-26,Yes,Laptop
+H0845,U081,M015,La La Land,Romance,Damien Chazelle,4.0,2023-02-11,Yes,Smart TV
+H0846,U082,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,1.4,2023-01-07,Yes,Tablet
+H0847,U082,M013,The Notebook,Romance,Nick Cassavetes,1.9,2023-08-15,Yes,Mobile
+H0848,U082,M003,Avengers: Endgame,Action,Christopher Nolan,3.6,2023-08-24,Yes,Mobile
+H0849,U082,M018,Avatar,Sci-Fi,James Cameron,2.4,2023-08-31,Yes,Laptop
+H0850,U082,M016,Toy Story 4,Animation,Josh Cooley,3.2,2023-03-23,Yes,Smart TV
+H0851,U082,M006,Dune,Sci-Fi,Denis Villeneuve,2.7,2023-05-10,Yes,Mobile
+H0852,U082,M007,Get Out,Horror,Jordan Peele,4.1,2023-07-04,Yes,Smart TV
+H0853,U082,M009,Nomadland,Drama,Chloe Zhao,3.2,2023-05-01,Yes,Smart TV
+H0854,U082,M029,The Irishman,Drama,Martin Scorsese,3.8,2023-03-27,Yes,Tablet
+H0855,U083,M001,Inception,Sci-Fi,Christopher Nolan,4.1,2023-03-21,Yes,Mobile
+H0856,U083,M002,Barbie,Comedy,Greta Gerwig,2.7,2023-03-22,Yes,Smart TV
+H0857,U083,M019,Knives Out,Thriller,Rian Johnson,4.0,2023-01-31,Yes,Smart TV
+H0858,U083,M026,BlackKklansman,Drama,Spike Lee,2.7,2023-03-06,Yes,Laptop
+H0859,U083,M023,The Martian,Sci-Fi,Ridley Scott,4.6,2023-08-13,Yes,Tablet
+H0860,U083,M016,Toy Story 4,Animation,Josh Cooley,3.5,2023-07-03,Yes,Smart TV
+H0861,U083,M027,Free Guy,Action,Shawn Levy,3.5,2023-09-06,Yes,Tablet
+H0862,U083,M020,Soul,Animation,Pete Docter,3.0,2023-04-08,Yes,Laptop
+H0863,U084,M009,Nomadland,Drama,Chloe Zhao,2.3,2023-10-05,Yes,Tablet
+H0864,U084,M028,A Quiet Place,Horror,John Krasinski,4.1,2023-04-05,Yes,Mobile
+H0865,U084,M027,Free Guy,Action,Shawn Levy,4.6,2023-06-14,No,Mobile
+H0866,U084,M020,Soul,Animation,Pete Docter,3.4,2023-09-26,Yes,Laptop
+H0867,U084,M018,Avatar,Sci-Fi,James Cameron,2.4,2023-06-15,Yes,Smart TV
+H0868,U084,M006,Dune,Sci-Fi,Denis Villeneuve,2.8,2023-02-19,Yes,Smart TV
+H0869,U084,M003,Avengers: Endgame,Action,Christopher Nolan,3.8,2023-03-08,Yes,Mobile
+H0870,U084,M017,The Social Network,Drama,David Fincher,2.7,2023-02-24,Yes,Smart TV
+H0871,U084,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.2,2023-10-20,No,Tablet
+H0872,U084,M015,La La Land,Romance,Damien Chazelle,4.4,2023-09-27,Yes,Smart TV
+H0873,U084,M010,The Dark Knight,Action,Christopher Nolan,3.8,2023-07-07,Yes,Smart TV
+H0874,U084,M030,Tenet,Action,Christopher Nolan,4.5,2023-04-17,Yes,Tablet
+H0875,U085,M002,Barbie,Comedy,Greta Gerwig,4.9,2023-04-21,Yes,Smart TV
+H0876,U085,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,2.9,2023-04-29,Yes,Mobile
+H0877,U085,M018,Avatar,Sci-Fi,James Cameron,3.3,2023-09-27,Yes,Tablet
+H0878,U085,M024,Crazy Rich Asians,Romance,Jon M. Chu,3.7,2023-02-24,Yes,Tablet
+H0879,U085,M014,Hereditary,Horror,Ari Aster,3.3,2023-12-26,Yes,Mobile
+H0880,U085,M029,The Irishman,Drama,Martin Scorsese,2.9,2023-04-03,Yes,Mobile
+H0881,U085,M023,The Martian,Sci-Fi,Ridley Scott,4.5,2023-10-01,No,Laptop
+H0882,U085,M030,Tenet,Action,Christopher Nolan,2.9,2023-06-11,Yes,Laptop
+H0883,U085,M020,Soul,Animation,Pete Docter,4.6,2023-07-31,No,Laptop
+H0884,U085,M009,Nomadland,Drama,Chloe Zhao,1.8,2023-11-08,Yes,Tablet
+H0885,U085,M017,The Social Network,Drama,David Fincher,4.2,2023-10-09,Yes,Laptop
+H0886,U085,M027,Free Guy,Action,Shawn Levy,2.6,2023-08-20,No,Smart TV
+H0887,U085,M003,Avengers: Endgame,Action,Christopher Nolan,4.4,2023-01-18,Yes,Mobile
+H0888,U085,M010,The Dark Knight,Action,Christopher Nolan,1.0,2023-06-04,Yes,Mobile
+H0889,U085,M028,A Quiet Place,Horror,John Krasinski,1.1,2023-06-11,Yes,Mobile
+H0890,U086,M002,Barbie,Comedy,Greta Gerwig,4.1,2023-07-07,Yes,Mobile
+H0891,U086,M015,La La Land,Romance,Damien Chazelle,4.7,2023-05-12,Yes,Tablet
+H0892,U086,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.2,2023-10-19,Yes,Laptop
+H0893,U086,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,1.6,2023-09-05,Yes,Laptop
+H0894,U086,M027,Free Guy,Action,Shawn Levy,4.6,2023-01-20,No,Smart TV
+H0895,U086,M009,Nomadland,Drama,Chloe Zhao,4.9,2023-01-29,Yes,Laptop
+H0896,U087,M014,Hereditary,Horror,Ari Aster,4.0,2023-01-28,Yes,Laptop
+H0897,U087,M028,A Quiet Place,Horror,John Krasinski,4.3,2023-10-04,Yes,Mobile
+H0898,U087,M004,Parasite,Thriller,Bong Joon-ho,3.6,2023-03-20,No,Tablet
+H0899,U087,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.0,2023-11-01,Yes,Mobile
+H0900,U087,M008,Interstellar,Sci-Fi,Christopher Nolan,2.0,2023-08-10,No,Mobile
+H0901,U087,M024,Crazy Rich Asians,Romance,Jon M. Chu,2.2,2023-03-09,No,Smart TV
+H0902,U087,M021,Joker,Drama,Todd Phillips,2.4,2023-10-08,Yes,Tablet
+H0903,U087,M020,Soul,Animation,Pete Docter,2.5,2023-09-14,Yes,Mobile
+H0904,U087,M001,Inception,Sci-Fi,Christopher Nolan,3.0,2023-09-04,No,Tablet
+H0905,U087,M027,Free Guy,Action,Shawn Levy,3.0,2023-11-30,Yes,Mobile
+H0906,U087,M013,The Notebook,Romance,Nick Cassavetes,1.9,2023-02-06,No,Laptop
+H0907,U088,M030,Tenet,Action,Christopher Nolan,3.2,2023-06-29,No,Mobile
+H0908,U088,M019,Knives Out,Thriller,Rian Johnson,3.6,2023-08-14,Yes,Mobile
+H0909,U088,M003,Avengers: Endgame,Action,Christopher Nolan,2.3,2023-12-17,Yes,Smart TV
+H0910,U088,M004,Parasite,Thriller,Bong Joon-ho,3.9,2023-01-28,Yes,Laptop
+H0911,U088,M022,Midsommar,Horror,Ari Aster,4.0,2023-01-08,Yes,Laptop
+H0912,U088,M014,Hereditary,Horror,Ari Aster,4.2,2023-08-19,Yes,Mobile
+H0913,U088,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,1.7,2023-10-03,Yes,Tablet
+H0914,U088,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.6,2023-11-15,Yes,Smart TV
+H0915,U088,M023,The Martian,Sci-Fi,Ridley Scott,3.0,2023-07-12,Yes,Laptop
+H0916,U088,M007,Get Out,Horror,Jordan Peele,3.6,2023-03-29,Yes,Laptop
+H0917,U088,M011,Marriage Story,Drama,Noah Baumbach,2.6,2023-01-28,Yes,Smart TV
+H0918,U088,M026,BlackKklansman,Drama,Spike Lee,3.3,2023-07-18,Yes,Smart TV
+H0919,U088,M001,Inception,Sci-Fi,Christopher Nolan,2.0,2023-01-10,No,Mobile
+H0920,U088,M010,The Dark Knight,Action,Christopher Nolan,2.8,2023-07-14,Yes,Laptop
+H0921,U088,M006,Dune,Sci-Fi,Denis Villeneuve,4.0,2023-09-06,Yes,Mobile
+H0922,U089,M017,The Social Network,Drama,David Fincher,2.2,2023-06-06,No,Mobile
+H0923,U089,M015,La La Land,Romance,Damien Chazelle,2.2,2023-01-10,Yes,Laptop
+H0924,U089,M018,Avatar,Sci-Fi,James Cameron,2.1,2023-11-17,Yes,Smart TV
+H0925,U089,M023,The Martian,Sci-Fi,Ridley Scott,1.9,2023-11-17,No,Smart TV
+H0926,U089,M001,Inception,Sci-Fi,Christopher Nolan,4.3,2023-10-12,Yes,Mobile
+H0927,U089,M002,Barbie,Comedy,Greta Gerwig,4.1,2023-06-24,Yes,Smart TV
+H0928,U089,M008,Interstellar,Sci-Fi,Christopher Nolan,2.8,2023-07-15,Yes,Tablet
+H0929,U089,M030,Tenet,Action,Christopher Nolan,4.4,2023-05-04,No,Laptop
+H0930,U090,M011,Marriage Story,Drama,Noah Baumbach,5.0,2023-08-09,Yes,Mobile
+H0931,U090,M015,La La Land,Romance,Damien Chazelle,1.2,2023-06-12,Yes,Mobile
+H0932,U090,M018,Avatar,Sci-Fi,James Cameron,4.8,2023-06-12,Yes,Smart TV
+H0933,U090,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,4.1,2023-06-13,No,Tablet
+H0934,U090,M007,Get Out,Horror,Jordan Peele,2.6,2023-06-05,Yes,Mobile
+H0935,U090,M021,Joker,Drama,Todd Phillips,3.7,2023-04-07,Yes,Smart TV
+H0936,U090,M027,Free Guy,Action,Shawn Levy,4.4,2023-11-10,Yes,Mobile
+H0937,U090,M019,Knives Out,Thriller,Rian Johnson,3.4,2023-04-29,Yes,Smart TV
+H0938,U090,M028,A Quiet Place,Horror,John Krasinski,3.7,2023-12-19,Yes,Tablet
+H0939,U090,M026,BlackKklansman,Drama,Spike Lee,4.5,2023-12-31,Yes,Tablet
+H0940,U090,M024,Crazy Rich Asians,Romance,Jon M. Chu,2.7,2023-09-09,Yes,Mobile
+H0941,U090,M010,The Dark Knight,Action,Christopher Nolan,3.5,2023-04-26,Yes,Laptop
+H0942,U090,M017,The Social Network,Drama,David Fincher,3.8,2023-07-31,Yes,Mobile
+H0943,U090,M020,Soul,Animation,Pete Docter,1.6,2023-02-03,No,Tablet
+H0944,U091,M028,A Quiet Place,Horror,John Krasinski,3.1,2023-07-21,Yes,Smart TV
+H0945,U091,M015,La La Land,Romance,Damien Chazelle,2.6,2023-08-20,Yes,Mobile
+H0946,U091,M008,Interstellar,Sci-Fi,Christopher Nolan,2.9,2023-09-23,Yes,Tablet
+H0947,U091,M014,Hereditary,Horror,Ari Aster,3.7,2023-09-22,Yes,Mobile
+H0948,U091,M013,The Notebook,Romance,Nick Cassavetes,2.5,2023-05-30,Yes,Laptop
+H0949,U091,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.7,2023-08-25,Yes,Smart TV
+H0950,U091,M002,Barbie,Comedy,Greta Gerwig,2.8,2023-12-20,Yes,Tablet
+H0951,U091,M020,Soul,Animation,Pete Docter,4.2,2023-11-27,Yes,Mobile
+H0952,U091,M026,BlackKklansman,Drama,Spike Lee,4.9,2023-10-27,Yes,Tablet
+H0953,U091,M011,Marriage Story,Drama,Noah Baumbach,4.0,2023-07-31,Yes,Mobile
+H0954,U092,M019,Knives Out,Thriller,Rian Johnson,3.5,2023-02-28,Yes,Smart TV
+H0955,U092,M029,The Irishman,Drama,Martin Scorsese,4.6,2023-09-26,Yes,Tablet
+H0956,U092,M023,The Martian,Sci-Fi,Ridley Scott,2.3,2023-10-09,Yes,Laptop
+H0957,U092,M007,Get Out,Horror,Jordan Peele,4.0,2023-10-17,Yes,Mobile
+H0958,U092,M015,La La Land,Romance,Damien Chazelle,3.8,2023-03-16,Yes,Tablet
+H0959,U092,M003,Avengers: Endgame,Action,Christopher Nolan,2.1,2023-06-07,No,Laptop
+H0960,U092,M009,Nomadland,Drama,Chloe Zhao,3.8,2023-11-17,Yes,Mobile
+H0961,U092,M011,Marriage Story,Drama,Noah Baumbach,4.4,2023-01-02,Yes,Smart TV
+H0962,U092,M021,Joker,Drama,Todd Phillips,4.2,2023-08-23,No,Smart TV
+H0963,U092,M006,Dune,Sci-Fi,Denis Villeneuve,4.1,2023-11-08,Yes,Mobile
+H0964,U092,M004,Parasite,Thriller,Bong Joon-ho,3.3,2023-10-29,No,Tablet
+H0965,U092,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,1.3,2023-08-15,Yes,Mobile
+H0966,U093,M009,Nomadland,Drama,Chloe Zhao,3.3,2023-01-17,Yes,Laptop
+H0967,U093,M020,Soul,Animation,Pete Docter,1.2,2023-02-14,No,Mobile
+H0968,U093,M021,Joker,Drama,Todd Phillips,3.4,2023-03-24,Yes,Tablet
+H0969,U093,M018,Avatar,Sci-Fi,James Cameron,2.3,2023-10-24,Yes,Smart TV
+H0970,U093,M007,Get Out,Horror,Jordan Peele,4.0,2023-06-03,No,Smart TV
+H0971,U093,M002,Barbie,Comedy,Greta Gerwig,4.0,2023-08-07,Yes,Laptop
+H0972,U093,M006,Dune,Sci-Fi,Denis Villeneuve,1.5,2023-08-30,Yes,Laptop
+H0973,U093,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,2.4,2023-09-27,Yes,Mobile
+H0974,U093,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,1.2,2023-11-10,Yes,Tablet
+H0975,U093,M028,A Quiet Place,Horror,John Krasinski,4.4,2023-12-19,Yes,Tablet
+H0976,U093,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,4.0,2023-11-08,Yes,Laptop
+H0977,U093,M022,Midsommar,Horror,Ari Aster,4.4,2023-03-08,No,Tablet
+H0978,U093,M023,The Martian,Sci-Fi,Ridley Scott,3.8,2023-09-10,Yes,Laptop
+H0979,U094,M001,Inception,Sci-Fi,Christopher Nolan,5.0,2023-11-12,No,Smart TV
+H0980,U094,M004,Parasite,Thriller,Bong Joon-ho,4.0,2023-06-20,Yes,Smart TV
+H0981,U094,M030,Tenet,Action,Christopher Nolan,1.7,2023-11-24,Yes,Laptop
+H0982,U094,M015,La La Land,Romance,Damien Chazelle,2.1,2023-02-04,Yes,Smart TV
+H0983,U094,M021,Joker,Drama,Todd Phillips,4.5,2023-02-28,Yes,Tablet
+H0984,U094,M029,The Irishman,Drama,Martin Scorsese,4.4,2023-10-19,Yes,Mobile
+H0985,U094,M024,Crazy Rich Asians,Romance,Jon M. Chu,2.2,2023-04-10,Yes,Tablet
+H0986,U094,M007,Get Out,Horror,Jordan Peele,4.7,2023-08-31,Yes,Tablet
+H0987,U095,M021,Joker,Drama,Todd Phillips,3.9,2023-01-29,Yes,Laptop
+H0988,U095,M015,La La Land,Romance,Damien Chazelle,4.3,2023-10-12,Yes,Laptop
+H0989,U095,M028,A Quiet Place,Horror,John Krasinski,1.2,2023-07-01,Yes,Laptop
+H0990,U095,M018,Avatar,Sci-Fi,James Cameron,2.2,2023-01-16,No,Mobile
+H0991,U095,M011,Marriage Story,Drama,Noah Baumbach,3.1,2023-10-20,Yes,Smart TV
+H0992,U095,M029,The Irishman,Drama,Martin Scorsese,3.5,2023-06-07,Yes,Smart TV
+H0993,U095,M014,Hereditary,Horror,Ari Aster,2.4,2023-05-20,No,Mobile
+H0994,U096,M015,La La Land,Romance,Damien Chazelle,4.9,2023-04-14,No,Smart TV
+H0995,U096,M027,Free Guy,Action,Shawn Levy,4.9,2023-09-05,Yes,Mobile
+H0996,U096,M010,The Dark Knight,Action,Christopher Nolan,4.9,2023-06-24,Yes,Laptop
+H0997,U096,M007,Get Out,Horror,Jordan Peele,3.7,2023-03-15,Yes,Mobile
+H0998,U096,M017,The Social Network,Drama,David Fincher,3.5,2023-04-16,No,Tablet
+H0999,U096,M028,A Quiet Place,Horror,John Krasinski,4.0,2024-01-01,Yes,Smart TV
+H1000,U096,M006,Dune,Sci-Fi,Denis Villeneuve,4.3,2023-06-09,Yes,Laptop
+H1001,U096,M004,Parasite,Thriller,Bong Joon-ho,4.8,2023-08-28,Yes,Laptop
+H1002,U096,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.0,2023-01-12,Yes,Mobile
+H1003,U096,M002,Barbie,Comedy,Greta Gerwig,1.7,2023-06-14,Yes,Laptop
+H1004,U097,M011,Marriage Story,Drama,Noah Baumbach,3.8,2023-02-22,Yes,Laptop
+H1005,U097,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,3.7,2023-05-19,Yes,Mobile
+H1006,U097,M015,La La Land,Romance,Damien Chazelle,1.2,2023-03-29,Yes,Tablet
+H1007,U097,M022,Midsommar,Horror,Ari Aster,1.5,2023-01-26,No,Smart TV
+H1008,U097,M004,Parasite,Thriller,Bong Joon-ho,4.1,2023-02-24,Yes,Tablet
+H1009,U097,M009,Nomadland,Drama,Chloe Zhao,3.8,2023-07-20,No,Laptop
+H1010,U097,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,4.0,2023-06-09,Yes,Smart TV
+H1011,U097,M006,Dune,Sci-Fi,Denis Villeneuve,3.0,2023-08-27,Yes,Tablet
+H1012,U097,M029,The Irishman,Drama,Martin Scorsese,4.2,2023-02-19,No,Tablet
+H1013,U097,M026,BlackKklansman,Drama,Spike Lee,4.9,2023-04-29,Yes,Laptop
+H1014,U097,M001,Inception,Sci-Fi,Christopher Nolan,2.4,2023-07-06,Yes,Laptop
+H1015,U097,M018,Avatar,Sci-Fi,James Cameron,2.7,2023-08-21,Yes,Tablet
+H1016,U097,M017,The Social Network,Drama,David Fincher,4.0,2023-02-27,No,Mobile
+H1017,U098,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,4.3,2023-06-16,Yes,Laptop
+H1018,U098,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,2.6,2023-09-30,No,Mobile
+H1019,U098,M020,Soul,Animation,Pete Docter,3.9,2023-11-14,Yes,Tablet
+H1020,U098,M019,Knives Out,Thriller,Rian Johnson,3.6,2023-07-16,Yes,Tablet
+H1021,U098,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,3.0,2023-08-11,Yes,Mobile
+H1022,U098,M017,The Social Network,Drama,David Fincher,3.3,2023-03-30,Yes,Tablet
+H1023,U098,M004,Parasite,Thriller,Bong Joon-ho,4.4,2023-02-28,No,Laptop
+H1024,U098,M013,The Notebook,Romance,Nick Cassavetes,1.3,2023-10-12,No,Mobile
+H1025,U098,M024,Crazy Rich Asians,Romance,Jon M. Chu,4.3,2023-06-07,Yes,Smart TV
+H1026,U099,M027,Free Guy,Action,Shawn Levy,1.5,2023-12-05,Yes,Tablet
+H1027,U099,M020,Soul,Animation,Pete Docter,3.0,2023-11-12,Yes,Mobile
+H1028,U099,M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,4.1,2023-12-15,Yes,Laptop
+H1029,U099,M030,Tenet,Action,Christopher Nolan,3.5,2023-08-11,Yes,Smart TV
+H1030,U099,M013,The Notebook,Romance,Nick Cassavetes,1.0,2023-10-26,No,Mobile
+H1031,U099,M011,Marriage Story,Drama,Noah Baumbach,3.6,2023-05-31,Yes,Smart TV
+H1032,U099,M016,Toy Story 4,Animation,Josh Cooley,3.0,2023-12-27,Yes,Smart TV
+H1033,U099,M021,Joker,Drama,Todd Phillips,4.8,2023-05-25,Yes,Tablet
+H1034,U099,M022,Midsommar,Horror,Ari Aster,4.4,2023-12-26,Yes,Tablet
+H1035,U099,M002,Barbie,Comedy,Greta Gerwig,2.3,2023-07-27,Yes,Mobile
+H1036,U099,M003,Avengers: Endgame,Action,Christopher Nolan,1.5,2023-09-01,No,Laptop
+H1037,U099,M007,Get Out,Horror,Jordan Peele,3.7,2023-08-02,Yes,Mobile
+H1038,U099,M005,The Grand Budapest Hotel,Comedy,Wes Anderson,1.3,2023-01-06,Yes,Mobile
+H1039,U099,M001,Inception,Sci-Fi,Christopher Nolan,3.3,2023-09-07,Yes,Smart TV
+H1040,U099,M018,Avatar,Sci-Fi,James Cameron,3.2,2023-03-12,No,Tablet
+H1041,U100,M030,Tenet,Action,Christopher Nolan,3.5,2023-11-06,No,Mobile
+H1042,U100,M014,Hereditary,Horror,Ari Aster,2.8,2023-12-31,No,Laptop
+H1043,U100,M020,Soul,Animation,Pete Docter,4.4,2023-01-18,No,Laptop
+H1044,U100,M006,Dune,Sci-Fi,Denis Villeneuve,4.4,2023-02-27,Yes,Mobile
+H1045,U100,M015,La La Land,Romance,Damien Chazelle,5.0,2023-09-27,Yes,Tablet
+H1046,U100,M017,The Social Network,Drama,David Fincher,1.3,2023-09-22,Yes,Mobile
+H1047,U100,M029,The Irishman,Drama,Martin Scorsese,3.2,2023-08-30,Yes,Laptop
+H1048,U100,M018,Avatar,Sci-Fi,James Cameron,3.6,2023-11-10,Yes,Smart TV
+H1049,U100,M026,BlackKklansman,Drama,Spike Lee,2.6,2023-08-29,No,Laptop
+H1050,U100,M013,The Notebook,Romance,Nick Cassavetes,4.0,2023-08-04,Yes,Laptop
+H1051,U100,M012,Everything Everywhere All at Once,Sci-Fi,Daniels,3.6,2023-03-27,Yes,Laptop
+H1052,U100,M008,Interstellar,Sci-Fi,Christopher Nolan,4.4,2023-02-01,Yes,Smart TV
+H1053,U100,M027,Free Guy,Action,Shawn Levy,5.0,2023-12-03,Yes,Laptop
+H1054,U100,M024,Crazy Rich Asians,Romance,Jon M. Chu,3.6,2023-09-06,Yes,Laptop

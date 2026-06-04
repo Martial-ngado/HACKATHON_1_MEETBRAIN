@@ -1,0 +1,31 @@
+movie_id,title,genre,director,release_year,avg_rating,duration_min,language,tags
+M001,Inception,Sci-Fi,Christopher Nolan,2010,6.6,112,English,award-winning|based-on-book
+M002,Barbie,Comedy,Greta Gerwig,2023,7.2,161,English,based-on-book|award-winning
+M003,Avengers: Endgame,Action,Christopher Nolan,2019,7.9,151,English,indie|blockbuster
+M004,Parasite,Thriller,Bong Joon-ho,2019,6.8,137,English,cult-classic|sequel
+M005,The Grand Budapest Hotel,Comedy,Wes Anderson,2014,8.7,173,English,cult-classic|based-on-book
+M006,Dune,Sci-Fi,Denis Villeneuve,2021,7.6,87,English,blockbuster|award-winning
+M007,Get Out,Horror,Jordan Peele,2017,6.8,173,English,indie|award-winning
+M008,Interstellar,Sci-Fi,Christopher Nolan,2014,8.3,132,English,cult-classic|sequel
+M009,Nomadland,Drama,Chloe Zhao,2020,7.9,139,English,based-on-book|sequel
+M010,The Dark Knight,Action,Christopher Nolan,2008,7.2,174,English,cult-classic|award-winning
+M011,Marriage Story,Drama,Noah Baumbach,2019,7.1,114,English,blockbuster|indie
+M012,Everything Everywhere All at Once,Sci-Fi,Daniels,2022,7.1,180,English,sequel|indie
+M013,The Notebook,Romance,Nick Cassavetes,2004,6.7,179,English,cult-classic|award-winning
+M014,Hereditary,Horror,Ari Aster,2018,8.5,152,English,sequel|award-winning
+M015,La La Land,Romance,Damien Chazelle,2016,9.4,109,English,award-winning|indie
+M016,Toy Story 4,Animation,Josh Cooley,2019,7.3,123,English,blockbuster|sequel
+M017,The Social Network,Drama,David Fincher,2010,6.4,90,English,blockbuster|sequel
+M018,Avatar,Sci-Fi,James Cameron,2009,7.0,101,English,based-on-book|cult-classic
+M019,Knives Out,Thriller,Rian Johnson,2019,6.4,86,English,sequel|award-winning
+M020,Soul,Animation,Pete Docter,2020,7.6,141,English,award-winning|indie
+M021,Joker,Drama,Todd Phillips,2019,9.4,117,English,cult-classic|blockbuster
+M022,Midsommar,Horror,Ari Aster,2019,8.9,136,English,cult-classic|blockbuster
+M023,The Martian,Sci-Fi,Ridley Scott,2015,8.0,172,English,blockbuster|indie
+M024,Crazy Rich Asians,Romance,Jon M. Chu,2018,6.5,157,English,award-winning|blockbuster
+M025,Spider-Man: Into the Spider-Verse,Animation,Bob Persichetti,2018,9.5,100,English,sequel|cult-classic
+M026,BlackKklansman,Drama,Spike Lee,2018,8.1,164,English,indie|sequel
+M027,Free Guy,Action,Shawn Levy,2021,7.3,141,English,award-winning|sequel
+M028,A Quiet Place,Horror,John Krasinski,2018,9.5,124,English,sequel|based-on-book
+M029,The Irishman,Drama,Martin Scorsese,2019,6.2,179,English,blockbuster|indie
+M030,Tenet,Action,Christopher Nolan,2020,8.2,118,English,based-on-book|blockbuster
