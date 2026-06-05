@@ -82,8 +82,7 @@ hr { border-color: #1e2130 !important; }
 ::-webkit-scrollbar-track { background: #0a0b0f; }
 ::-webkit-scrollbar-thumb { background: #e50914; border-radius: 3px; }
 </style>
-""", 
-unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 # ── Dark matplotlib style ─────────────────────────────────────────────────────
 DARK   = "#0a0b0f"
@@ -151,12 +150,24 @@ users_df, movies_df, history_df = load_data()
 cosine_sim, rating_matrix, users_df = build_models(len(movies_df), len(history_df))
 
 # ── Recommendation functions ──────────────────────────────────────────────────
+def is_new_user(user_id):
+    """True if user has no watch history."""
+    return len(history_df[history_df["user_id"] == user_id]) == 0
+
 def content_recs(user_id, n=6):
     row   = users_df[users_df["user_id"] == user_id].iloc[0]
     prefs = [g.strip().lower() for g in row["preferred_genres"].split("|")]
+
+    # NEW USER — no watch history: return top-rated movies in preferred genres
+    if is_new_user(user_id):
+        result = movies_df[movies_df["genre"].str.lower().isin(prefs)]
+        result = result.sort_values("avg_rating", ascending=False).head(n).copy()
+        result["rec_reason"] = "Top rated in your preferred genres"
+        return result
+
+    # EXISTING USER — use similarity from liked movies
     liked = history_df[(history_df["user_id"]==user_id) & (history_df["user_rating"]>=4)]["title"].tolist()
     seen  = set(history_df[history_df["user_id"]==user_id]["title"])
-
     candidates = {}
     for title in liked:
         m = movies_df[movies_df["title"].str.lower()==title.lower()]
@@ -170,9 +181,39 @@ def content_recs(user_id, n=6):
 
     final = movies_df[movies_df["title"].isin(candidates)]
     final = final[final["genre"].str.lower().isin(prefs)]
+    if final.empty:
+        # Fallback: top rated in preferred genres not yet seen
+        final = movies_df[movies_df["genre"].str.lower().isin(prefs)]
+        final = final[~final["title"].isin(seen)]
     return final.sort_values("avg_rating", ascending=False).head(n)
 
 def collab_recs(user_id, n=6):
+    row   = users_df[users_df["user_id"] == user_id].iloc[0]
+    prefs = [g.strip().lower() for g in row["preferred_genres"].split("|")]
+
+    # NEW USER — no ratings yet: find users with same preferred genres, return their top picks
+    if is_new_user(user_id):
+        similar_users = []
+        for _, u in users_df[users_df["user_id"] != user_id].iterrows():
+            u_prefs = set(g.strip().lower() for g in u["preferred_genres"].split("|"))
+            overlap = len(u_prefs & set(prefs))
+            if overlap > 0:
+                similar_users.append((u["user_id"], overlap))
+        similar_users = sorted(similar_users, key=lambda x: x[1], reverse=True)[:10]
+        scores = {}
+        for sim_uid, weight in similar_users:
+            for _, r in history_df[history_df["user_id"]==sim_uid].iterrows():
+                if r["user_rating"] >= 4:
+                    scores[r["title"]] = scores.get(r["title"], 0) + weight * r["user_rating"]
+        ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:n]
+        if not ranked:
+            return pd.DataFrame()
+        result = movies_df[movies_df["title"].isin([t for t,_ in ranked])].copy()
+        result["score"] = result["title"].map(dict(ranked))
+        result["rec_reason"] = "Loved by users with similar genre taste"
+        return result.sort_values("score", ascending=False)
+
+    # EXISTING USER — Pearson correlation on rating vectors
     if user_id not in rating_matrix.index:
         return pd.DataFrame()
     tv  = rating_matrix.loc[user_id].values
@@ -195,10 +236,8 @@ def collab_recs(user_id, n=6):
 
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:n]
     if not ranked: return pd.DataFrame()
-    titles = [t for t,_ in ranked]
-    result = movies_df[movies_df["title"].isin(titles)].copy()
-    score_map = dict(ranked)
-    result["score"] = result["title"].map(score_map)
+    result = movies_df[movies_df["title"].isin([t for t,_ in ranked])].copy()
+    result["score"] = result["title"].map(dict(ranked))
     return result.sort_values("score", ascending=False)
 
 def cluster_recs(user_id, n=6):
@@ -206,10 +245,20 @@ def cluster_recs(user_id, n=6):
     cluster = row["cluster"]
     members = users_df[users_df["cluster"]==cluster]["user_id"]
     ch      = history_df[history_df["user_id"].isin(members)]
-    avg     = ch.groupby("title")["user_rating"].mean().sort_values(ascending=False)
-    seen    = set(history_df[history_df["user_id"]==user_id]["title"])
-    recs    = avg[~avg.index.isin(seen)].head(n)
-    result  = movies_df[movies_df["title"].isin(recs.index)].copy()
+    prefs   = [g.strip().lower() for g in row["preferred_genres"].split("|")]
+
+    # NEW USER — cluster may have no ratings yet; use global top rated in preferred genres
+    if is_new_user(user_id) or len(ch) == 0:
+        result = movies_df[movies_df["genre"].str.lower().isin(prefs)]
+        result = result.sort_values("avg_rating", ascending=False).head(n).copy()
+        result["cluster_avg"] = result["avg_rating"]
+        result["rec_reason"]  = "Highest rated in your genre preferences"
+        return result
+
+    avg  = ch.groupby("title")["user_rating"].mean().sort_values(ascending=False)
+    seen = set(history_df[history_df["user_id"]==user_id]["title"])
+    recs = avg[~avg.index.isin(seen)].head(n)
+    result = movies_df[movies_df["title"].isin(recs.index)].copy()
     result["cluster_avg"] = result["title"].map(recs)
     return result.sort_values("cluster_avg", ascending=False)
 
@@ -245,7 +294,7 @@ def movie_card(row, score_label="", score_val=""):
 # SIDEBAR
 # ══════════════════════════════════════════════════════════════════════════════
 with st.sidebar:
-    st.markdown("## 🎬 CineAI")
+    st.markdown("## 🎬 MyFilms")
     st.markdown("<div style='color:#7a7a8a;font-size:12px;margin-bottom:20px'>AI Movie Recommendation System</div>", unsafe_allow_html=True)
     st.markdown("---")
 
@@ -284,12 +333,13 @@ c4.metric("Fav Genre",        user_hist['genre'].value_counts().index[0] if len(
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
     "📊 Profile & History",
     "🎯 Content-Based",
     "🤝 Collaborative",
     "📦 Cluster-Based",
     "📈 Analytics",
+    "➕ Add User",
 ])
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -351,16 +401,23 @@ with tab2:
     st.markdown("### Content-Based Recommendations")
     st.markdown("<div style='color:#7a7a8a;font-size:13px;margin-bottom:16px'>Based on movies you rated ★4+ — finds similar films using TF-IDF + cosine similarity on genre & director</div>", unsafe_allow_html=True)
 
+    # New user banner
+    if is_new_user(selected_uid):
+        st.markdown("""<div style='background:#13151f;border:1px solid #f5c518;border-left:4px solid #f5c518;
+            border-radius:10px;padding:12px 16px;margin-bottom:16px;font-size:13px;color:#f5c518'>
+            ⭐ <b>New user</b> — no watch history yet. Showing top-rated movies in your preferred genres.
+            </div>""", unsafe_allow_html=True)
+
     recs = content_recs(selected_uid, n=6)
     if recs.empty:
-        st.info("Not enough highly-rated movies to generate content-based recommendations. Try rating more movies 4+.")
+        st.info("No recommendations found for the selected genres.")
     else:
         cols = st.columns(2)
         for i, (_, row) in enumerate(recs.iterrows()):
             with cols[i % 2]:
-                st.markdown(movie_card(row, "Similarity match", f"{row['avg_rating']}/10"), unsafe_allow_html=True)
+                reason = row.get("rec_reason", "Similarity match")
+                st.markdown(movie_card(row, reason, f"{row['avg_rating']}/10"), unsafe_allow_html=True)
 
-    # Show liked movies that drove recs
     liked = history_df[(history_df["user_id"]==selected_uid) & (history_df["user_rating"]>=4)]["title"].tolist()
     if liked:
         st.markdown("---")
@@ -400,15 +457,23 @@ with tab3:
                 </div>""", unsafe_allow_html=True)
         st.markdown("<br>", unsafe_allow_html=True)
 
+    # New user banner
+    if is_new_user(selected_uid):
+        st.markdown("""<div style='background:#13151f;border:1px solid #f5c518;border-left:4px solid #f5c518;
+            border-radius:10px;padding:12px 16px;margin-bottom:16px;font-size:13px;color:#f5c518'>
+            ⭐ <b>New user</b> — no ratings yet. Showing top picks from users who share your genre preferences.
+            </div>""", unsafe_allow_html=True)
+
     recs = collab_recs(selected_uid, n=6)
     if recs.empty:
-        st.info("Not enough overlapping ratings with other users.")
+        st.info("Not enough data to generate collaborative recommendations yet.")
     else:
         cols = st.columns(2)
         for i, (_, row) in enumerate(recs.iterrows()):
             with cols[i % 2]:
                 score = f"{row.get('score', 0):.1f}"
-                st.markdown(movie_card(row, "Collab score", score), unsafe_allow_html=True)
+                reason = row.get("rec_reason", "Collab score")
+                st.markdown(movie_card(row, reason, score), unsafe_allow_html=True)
 
 # ──────────────────────────────────────────────────────────────────────────────
 # TAB 4 — CLUSTER BASED
@@ -439,15 +504,23 @@ with tab4:
     plt.close()
 
     st.markdown("<br>", unsafe_allow_html=True)
+    # New user banner
+    if is_new_user(selected_uid):
+        st.markdown("""<div style='background:#13151f;border:1px solid #f5c518;border-left:4px solid #f5c518;
+            border-radius:10px;padding:12px 16px;margin-bottom:16px;font-size:13px;color:#f5c518'>
+            ⭐ <b>New user</b> — showing highest rated movies in your preferred genres as a starting point.
+            </div>""", unsafe_allow_html=True)
+
     recs = cluster_recs(selected_uid, n=6)
     if recs.empty:
-        st.info("No new cluster recommendations available.")
+        st.info("No recommendations available.")
     else:
         cols = st.columns(2)
         for i, (_, row) in enumerate(recs.iterrows()):
             with cols[i % 2]:
                 cavg = f"{row.get('cluster_avg', 0):.2f}/5"
-                st.markdown(movie_card(row, "Cluster avg rating", cavg), unsafe_allow_html=True)
+                reason = row.get("rec_reason", "Cluster avg rating")
+                st.markdown(movie_card(row, reason, cavg), unsafe_allow_html=True)
 
 # ──────────────────────────────────────────────────────────────────────────────
 # TAB 5 — ANALYTICS
@@ -503,3 +576,100 @@ with tab5:
             "Total Watches": len(ch),
         })
     st.dataframe(pd.DataFrame(cluster_stats), use_container_width=True, hide_index=True)
+
+# ──────────────────────────────────────────────────────────────────────────────
+# TAB 6 — ADD USER
+# ──────────────────────────────────────────────────────────────────────────────
+
+def save_new_user(name, age, genres, plan):
+    users_path   = os.path.join(DATA, "users.csv")
+    current      = pd.read_csv(users_path)
+    existing_ids = current["user_id"].str.extract(r"U(\d+)")[0].astype(int)
+    new_id       = f"U{existing_ids.max() + 1:03d}"
+    new_row      = pd.DataFrame([{
+        "user_id":           new_id,
+        "name":              name,
+        "age":               int(age),
+        "preferred_genres":  "|".join(genres),
+        "subscription_plan": plan,
+    }])
+    updated = pd.concat([current, new_row], ignore_index=True)
+    updated.to_csv(users_path, index=False)
+    for excel_path in [
+        os.path.join(BASE, "..", "PowerBI_MovieRecommender.xlsx"),
+        os.path.join(BASE, "PowerBI_MovieRecommender.xlsx"),
+        "/mnt/user-data/outputs/PowerBI_MovieRecommender.xlsx",
+    ]:
+        if os.path.exists(excel_path):
+            try:
+                from openpyxl import load_workbook
+                wb = load_workbook(excel_path)
+                ws = wb["Users"]
+                ws.append([new_id, name, int(age), "|".join(genres), plan,
+                            0, 0.0, 0.0, genres[0], "—", "—", "Cluster 0"])
+                wb.save(excel_path)
+            except Exception:
+                pass
+            break
+    load_data.clear()
+    build_models.clear()
+    return new_id
+
+with tab6:
+    GENRES_ALL = ["Action","Drama","Comedy","Sci-Fi","Horror","Romance",
+                  "Thriller","Animation","Documentary","Fantasy"]
+    PLANS = ["Basic","Standard","Premium"]
+
+    st.markdown("### ➕ Add a New User")
+    st.markdown("<div style='color:#7a7a8a;font-size:13px;margin-bottom:20px'>Fill the form and click Save — the new user is written to <b>users.csv</b> and appears in the sidebar immediately.</div>", unsafe_allow_html=True)
+
+    with st.form("add_user_form", clear_on_submit=True):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown("<div style='color:#f5c518;font-size:11px;font-weight:600;letter-spacing:1px;margin-bottom:8px'>PERSONAL INFO</div>", unsafe_allow_html=True)
+            new_name  = st.text_input("Full Name", placeholder="e.g. John Doe")
+            new_age   = st.number_input("Age", min_value=10, max_value=100, value=25, step=1)
+            new_plan  = st.selectbox("Subscription Plan", PLANS)
+        with col2:
+            st.markdown("<div style='color:#f5c518;font-size:11px;font-weight:600;letter-spacing:1px;margin-bottom:8px'>PREFERRED GENRES (1-4)</div>", unsafe_allow_html=True)
+            new_genres = st.multiselect("Select genres", GENRES_ALL, default=["Action"], max_selections=4)
+
+        st.markdown("<br>", unsafe_allow_html=True)
+        submitted = st.form_submit_button("✅  Save New User", use_container_width=True)
+
+    if submitted:
+        errors = []
+        if not new_name.strip():
+            errors.append("Name cannot be empty.")
+        if not new_genres:
+            errors.append("Select at least one genre.")
+        current_csv = pd.read_csv(os.path.join(DATA, "users.csv"))
+        if new_name.strip() in current_csv["name"].values:
+            errors.append(f"A user named '{new_name.strip()}' already exists.")
+        if errors:
+            for e in errors:
+                st.error(e)
+        else:
+            new_uid = save_new_user(new_name.strip(), int(new_age), new_genres, new_plan)
+            st.success(f"✅  {new_name.strip()} added to the dataset with ID {new_uid}!")
+            st.markdown(f"""
+            <div style='background:#13151f;border:1px solid #22c55e;border-left:4px solid #22c55e;border-radius:12px;padding:16px;margin-top:8px'>
+              <div style='font-size:11px;color:#22c55e;font-weight:600;margin-bottom:10px'>NEW USER SAVED TO DATASET</div>
+              <div style='display:flex;gap:24px;flex-wrap:wrap'>
+                <div><div style='font-size:10px;color:#7a7a8a;text-transform:uppercase'>ID</div><div style='font-size:1.3rem;font-weight:600;color:#e50914'>{new_uid}</div></div>
+                <div><div style='font-size:10px;color:#7a7a8a;text-transform:uppercase'>Name</div><div style='font-size:1.3rem;font-weight:600;color:#e8e6e0'>{new_name.strip()}</div></div>
+                <div><div style='font-size:10px;color:#7a7a8a;text-transform:uppercase'>Age</div><div style='font-size:1.3rem;font-weight:600;color:#e8e6e0'>{int(new_age)}</div></div>
+                <div><div style='font-size:10px;color:#7a7a8a;text-transform:uppercase'>Plan</div><div style='font-size:1.3rem;font-weight:600;color:#f5c518'>{new_plan}</div></div>
+                <div><div style='font-size:10px;color:#7a7a8a;text-transform:uppercase'>Genres</div><div style='font-size:1.3rem;font-weight:600;color:#e8e6e0'>{" · ".join(new_genres)}</div></div>
+              </div>
+            </div>
+            """, unsafe_allow_html=True)
+            st.rerun()
+
+    st.markdown("---")
+    st.markdown("### 👥 All Users in Dataset")
+    live_users = pd.read_csv(os.path.join(DATA, "users.csv"))
+    live_users = live_users[["user_id","name","age","preferred_genres","subscription_plan"]]
+    live_users.columns = ["ID","Name","Age","Preferred Genres","Plan"]
+    st.dataframe(live_users, use_container_width=True, hide_index=True)
+    st.markdown(f"<div style='color:#7a7a8a;font-size:11px;margin-top:4px'>{len(live_users)} users in dataset</div>", unsafe_allow_html=True)
